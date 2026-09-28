@@ -1,0 +1,150 @@
+{
+  "graph": {
+    "nodes": [
+      {
+        "id": 1,
+        "mode": "Single",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 0.78,
+          "stretch": 1,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": true,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        },
+        "entryPoint": {
+          "x": 42.588,
+          "y": 0,
+          "z": 54.75600000000001
+        },
+        "exitPoint": {
+          "x": -42.588,
+          "y": 0,
+          "z": -54.75600000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      }
+    ],
+    "edges": []
+  },
+  "design_timeline": [
+    {
+      "step": 1,
+      "timestamp": 1788939211363,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 0.78,
+          "stretch": 1,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": true,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 2,
+      "timestamp": 1788939218778,
+      "action": "SCALE_STRETCH",
+      "data": {
+        "nodeIds": [
+          1
+        ],
+        "newScale": 0.9
+      }
+    },
+    {
+      "step": 3,
+      "timestamp": 1788939220959,
+      "action": "SCALE_STRETCH",
+      "data": {
+        "nodeIds": [
+          1
+        ],
+        "newScale": 0.8
+      }
+    },
+    {
+      "step": 4,
+      "timestamp": 1788939221491,
+      "action": "SCALE_STRETCH",
+      "data": {
+        "nodeIds": [
+          1
+        ],
+        "newScale": 0.7
+      }
+    },
+    {
+      "step": 5,
+      "timestamp": 1788939225060,
+      "action": "SCALE_STRETCH",
+      "data": {
+        "nodeIds": [
+          1
+        ],
+        "newScale": 0.78
+      }
+    }
+  ]
+}

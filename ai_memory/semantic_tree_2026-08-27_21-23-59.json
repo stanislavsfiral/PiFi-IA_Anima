@@ -1,0 +1,52 @@
+{
+    "name": "Концепт_ИИ",
+    "depth": 0,
+    "memory": {
+        "thesis": 0.0,
+        "antithesis": 0.0,
+        "is_crystalized": false
+    },
+    "children": [
+        {
+            "name": "Концепт_ИИ.Тезис",
+            "depth": 1,
+            "memory": {
+                "thesis": 0.0,
+                "antithesis": 0.0,
+                "is_crystalized": false
+            },
+            "children": [
+                {
+                    "name": "Концепт_ИИ.Тезис.Тезис",
+                    "depth": 2,
+                    "memory": {
+                        "thesis": 0.0,
+                        "antithesis": 0.0,
+                        "is_crystalized": false
+                    },
+                    "children": []
+                },
+                {
+                    "name": "Концепт_ИИ.Тезис.Антитезис",
+                    "depth": 2,
+                    "memory": {
+                        "thesis": 0.0,
+                        "antithesis": 0.0,
+                        "is_crystalized": false
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Концепт_ИИ.Антитезис",
+            "depth": 1,
+            "memory": {
+                "thesis": -0.7200000000000001,
+                "antithesis": 0.8,
+                "is_crystalized": true
+            },
+            "children": []
+        }
+    ]
+}

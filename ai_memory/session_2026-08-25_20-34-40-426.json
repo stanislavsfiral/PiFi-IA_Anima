@@ -1,0 +1,183 @@
+{
+    "timestamp": 1787668480.4262824,
+    "model_name": "GIDEON-Realtime-Session",
+    "total_nodes": 2,
+    "nodes": [
+        {
+            "id": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 1,
+                "angles": [
+                    0,
+                    0,
+                    0
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 2,
+            "x": 0,
+            "y": 0,
+            "z": 186.93407482386192,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 1,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        }
+    ],
+    "edges": [],
+    "total_steps": 4,
+    "timeline": [
+        {
+            "step": 1,
+            "timestamp": 1787668470303,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 2,
+            "timestamp": 1787668472599,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 2,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        180,
+                        0,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 3,
+            "timestamp": 1787668472603,
+            "action": "PASTE_CLIPBOARD",
+            "data": {
+                "newIds": [
+                    2
+                ]
+            }
+        },
+        {
+            "step": 4,
+            "timestamp": 1787668474984,
+            "action": "TRANSFORM_NODE",
+            "data": {
+                "id": 2,
+                "x": 0,
+                "y": 0,
+                "z": 186.93407482386192,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ]
+            }
+        }
+    ]
+}

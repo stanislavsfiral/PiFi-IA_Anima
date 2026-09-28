@@ -1,0 +1,2400 @@
+{
+    "timestamp": 1787653644.6478243,
+    "model_name": "GIDEON-Realtime-Session",
+    "total_nodes": 16,
+    "nodes": [
+        {
+            "id": 9,
+            "x": -190.49523861801686,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    0,
+                    89.99999879258174,
+                    0
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 10,
+            "x": -190.49523861801686,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    -180,
+                    -89.99999879258174,
+                    0
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 11,
+            "x": -190.49523861801686,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    -8.114364463993993e-15,
+                    -89.99999879258174,
+                    0
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 12,
+            "x": -190.49523861801686,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    179.99999999999994,
+                    89.99999879258174,
+                    0
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 13,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    0,
+                    0,
+                    0
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 14,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    -180,
+                    -9.054186722140982e-39,
+                    -7.016709298534875e-15
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 15,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    -180,
+                    -2.4148365172066277e-06,
+                    -180
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 16,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    1.2202689314064314e-21,
+                    2.4148365172066277e-06,
+                    179.99999999999994
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 21,
+            "x": -190.49523861801686,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    -44.645092229161605,
+                    77.29835826503806,
+                    135.3548514156795
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 22,
+            "x": -190.49523861801686,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    135.3549077708384,
+                    -77.29835826503813,
+                    -135.3548514156796
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 23,
+            "x": -190.49523861801686,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    135.3549000530646,
+                    -77.29835654694814,
+                    44.645141055414264
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 24,
+            "x": -190.49523861801686,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    -44.64509994693541,
+                    77.2983565469481,
+                    -44.645141055414236
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 25,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    0,
+                    0,
+                    89.99999999999999
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 26,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    -180,
+                    -7.102033062115628e-15,
+                    -90.00000000000003
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 27,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    179.9999975851635,
+                    -3.734993676321152e-14,
+                    90
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 28,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 0.78,
+                "angles": [
+                    -2.414836517206628e-06,
+                    1.1374549918640316e-21,
+                    -90.00000000000006
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        }
+    ],
+    "edges": [],
+    "total_steps": 78,
+    "timeline": [
+        {
+            "step": 1,
+            "timestamp": 1787653423560,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 2,
+            "timestamp": 1787653425928,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 2,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        180,
+                        0,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 3,
+            "timestamp": 1787653425929,
+            "action": "PASTE_CLIPBOARD",
+            "data": {
+                "newIds": [
+                    2
+                ]
+            }
+        },
+        {
+            "step": 4,
+            "timestamp": 1787653434042,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 3,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        180,
+                        5.281750148551872e-34,
+                        -180
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 5,
+            "timestamp": 1787653434042,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 4,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        -6.876033866821732e-15,
+                        2.8055361417632445e-30,
+                        179.99999999999994
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 6,
+            "timestamp": 1787653434044,
+            "action": "PASTE_CLIPBOARD",
+            "data": {
+                "newIds": [
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "step": 7,
+            "timestamp": 1787653448416,
+            "action": "TRANSFORM_GROUP",
+            "data": {
+                "nodes": [
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "step": 8,
+            "timestamp": 1787653449843,
+            "action": "CENTER_SELECTED",
+            "data": {
+                "nodes": [
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "step": 9,
+            "timestamp": 1787653468073,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 5,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        0,
+                        89.99999879258174,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 10,
+            "timestamp": 1787653468074,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 6,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        -180,
+                        -89.99999879258174,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 11,
+            "timestamp": 1787653468075,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 7,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        -8.114364463993993e-15,
+                        -89.99999879258174,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 12,
+            "timestamp": 1787653468076,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 8,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        179.99999999999994,
+                        89.99999879258174,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 13,
+            "timestamp": 1787653468079,
+            "action": "PASTE_CLIPBOARD",
+            "data": {
+                "newIds": [
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            }
+        },
+        {
+            "step": 14,
+            "timestamp": 1787653479237,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 9,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        0,
+                        89.99999879258174,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 15,
+            "timestamp": 1787653479239,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 10,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -180,
+                        -89.99999879258174,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 16,
+            "timestamp": 1787653479240,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 11,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -8.114364463993993e-15,
+                        -89.99999879258174,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 17,
+            "timestamp": 1787653479242,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 12,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        179.99999999999994,
+                        89.99999879258174,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 18,
+            "timestamp": 1787653479246,
+            "action": "PASTE_CLIPBOARD",
+            "data": {
+                "newIds": [
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        },
+        {
+            "step": 19,
+            "timestamp": 1787653481273,
+            "action": "TRANSFORM_GROUP",
+            "data": {
+                "nodes": [
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        },
+        {
+            "step": 20,
+            "timestamp": 1787653485732,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 1
+            }
+        },
+        {
+            "step": 21,
+            "timestamp": 1787653485732,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 2
+            }
+        },
+        {
+            "step": 22,
+            "timestamp": 1787653485732,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 3
+            }
+        },
+        {
+            "step": 23,
+            "timestamp": 1787653485732,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 4
+            }
+        },
+        {
+            "step": 24,
+            "timestamp": 1787653485732,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 5
+            }
+        },
+        {
+            "step": 25,
+            "timestamp": 1787653485732,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 6
+            }
+        },
+        {
+            "step": 26,
+            "timestamp": 1787653485732,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 7
+            }
+        },
+        {
+            "step": 27,
+            "timestamp": 1787653485732,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 8
+            }
+        },
+        {
+            "step": 28,
+            "timestamp": 1787653488430,
+            "action": "TRANSFORM_GROUP",
+            "data": {
+                "nodes": [
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        },
+        {
+            "step": 29,
+            "timestamp": 1787653492809,
+            "action": "SCALE_STRETCH",
+            "data": {
+                "nodeIds": [
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "newStretch": 0.9
+            }
+        },
+        {
+            "step": 30,
+            "timestamp": 1787653493423,
+            "action": "SCALE_STRETCH",
+            "data": {
+                "nodeIds": [
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "newStretch": 0.8
+            }
+        },
+        {
+            "step": 31,
+            "timestamp": 1787653494246,
+            "action": "SCALE_STRETCH",
+            "data": {
+                "nodeIds": [
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "newStretch": 0.7
+            }
+        },
+        {
+            "step": 32,
+            "timestamp": 1787653524321,
+            "action": "SCALE_STRETCH",
+            "data": {
+                "nodeIds": [
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "newStretch": 0.78
+            }
+        },
+        {
+            "step": 33,
+            "timestamp": 1787653531455,
+            "action": "TRANSFORM_GROUP",
+            "data": {
+                "nodes": [
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        },
+        {
+            "step": 34,
+            "timestamp": 1787653533514,
+            "action": "TRANSFORM_GROUP",
+            "data": {
+                "nodes": [
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            }
+        },
+        {
+            "step": 35,
+            "timestamp": 1787653535158,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 13,
+                "x": -190.49523861801686,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 36,
+            "timestamp": 1787653535159,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 14,
+                "x": -190.49523861801686,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -180,
+                        -9.054186722140982e-39,
+                        -7.016709298534875e-15
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 37,
+            "timestamp": 1787653535160,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 15,
+                "x": -190.49523861801686,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -180,
+                        -2.4148365172066277e-06,
+                        -180
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 38,
+            "timestamp": 1787653535161,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 16,
+                "x": -190.49523861801686,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        1.2202689314064314e-21,
+                        2.4148365172066277e-06,
+                        179.99999999999994
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 39,
+            "timestamp": 1787653535164,
+            "action": "PASTE_CLIPBOARD",
+            "data": {
+                "newIds": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            }
+        },
+        {
+            "step": 40,
+            "timestamp": 1787653538776,
+            "action": "CENTER_SELECTED",
+            "data": {
+                "nodes": [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            }
+        },
+        {
+            "step": 41,
+            "timestamp": 1787653562299,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 17,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        89.99999999999999,
+                        0,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 42,
+            "timestamp": 1787653562306,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 18,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -89.99999999999999,
+                        -7.062250076880254e-31,
+                        -7.016709298534875e-15
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 43,
+            "timestamp": 1787653562308,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 19,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -89.99999999999999,
+                        -2.4148365172066286e-06,
+                        -180
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 44,
+            "timestamp": 1787653562311,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 20,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        90,
+                        2.4148365172066277e-06,
+                        179.99999999999994
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 45,
+            "timestamp": 1787653562317,
+            "action": "PASTE_CLIPBOARD",
+            "data": {
+                "newIds": [
+                    17,
+                    18,
+                    19,
+                    20
+                ]
+            }
+        },
+        {
+            "step": 46,
+            "timestamp": 1787653564877,
+            "action": "TRANSFORM_GROUP",
+            "data": {
+                "nodes": [
+                    17,
+                    18,
+                    19,
+                    20
+                ]
+            }
+        },
+        {
+            "step": 47,
+            "timestamp": 1787653589070,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 21,
+                "x": -190.49523861801686,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -44.645092229161605,
+                        77.29835826503806,
+                        135.3548514156795
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 48,
+            "timestamp": 1787653589074,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 22,
+                "x": -190.49523861801686,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        135.3549077708384,
+                        -77.29835826503813,
+                        -135.3548514156796
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 49,
+            "timestamp": 1787653589079,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 23,
+                "x": -190.49523861801686,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        135.3549000530646,
+                        -77.29835654694814,
+                        44.645141055414264
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 50,
+            "timestamp": 1787653589082,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 24,
+                "x": -190.49523861801686,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -44.64509994693541,
+                        77.2983565469481,
+                        -44.645141055414236
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 51,
+            "timestamp": 1787653589090,
+            "action": "PASTE_CLIPBOARD",
+            "data": {
+                "newIds": [
+                    21,
+                    22,
+                    23,
+                    24
+                ]
+            }
+        },
+        {
+            "step": 52,
+            "timestamp": 1787653600407,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 25,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        0,
+                        0,
+                        89.99999999999999
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 53,
+            "timestamp": 1787653600412,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 26,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -180,
+                        -7.102033062115628e-15,
+                        -90.00000000000003
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 54,
+            "timestamp": 1787653600417,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 27,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        179.9999975851635,
+                        -3.734993676321152e-14,
+                        90
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 55,
+            "timestamp": 1787653600421,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 28,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -2.414836517206628e-06,
+                        1.1374549918640316e-21,
+                        -90.00000000000006
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 56,
+            "timestamp": 1787653600435,
+            "action": "PASTE_CLIPBOARD",
+            "data": {
+                "newIds": [
+                    25,
+                    26,
+                    27,
+                    28
+                ]
+            }
+        },
+        {
+            "step": 57,
+            "timestamp": 1787653606831,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 29,
+                "x": 241.2040322333466,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -101.44128517093368,
+                        -16.08022701770375,
+                        77.84894852666913
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 58,
+            "timestamp": 1787653606837,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 30,
+                "x": 241.2040322333466,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        78.5587148290663,
+                        16.080227017703756,
+                        -77.84894852666929
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 59,
+            "timestamp": 1787653606844,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 31,
+                "x": 241.2040322333466,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        78.55871237220647,
+                        16.080226509405556,
+                        102.15105215383942
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 60,
+            "timestamp": 1787653606855,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 32,
+                "x": 241.2040322333466,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -101.4412876277936,
+                        -16.08022650940555,
+                        -102.1510521538395
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 61,
+            "timestamp": 1787653606869,
+            "action": "PASTE_CLIPBOARD",
+            "data": {
+                "newIds": [
+                    29,
+                    30,
+                    31,
+                    32
+                ]
+            }
+        },
+        {
+            "step": 62,
+            "timestamp": 1787653619478,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 29
+            }
+        },
+        {
+            "step": 63,
+            "timestamp": 1787653619478,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 30
+            }
+        },
+        {
+            "step": 64,
+            "timestamp": 1787653619478,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 31
+            }
+        },
+        {
+            "step": 65,
+            "timestamp": 1787653619478,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 32
+            }
+        },
+        {
+            "step": 66,
+            "timestamp": 1787653622879,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 33,
+                "x": 241.2040322333466,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 67,
+            "timestamp": 1787653622887,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 34,
+                "x": 241.2040322333466,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -180,
+                        -9.054186722140982e-39,
+                        -7.016709298534875e-15
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 68,
+            "timestamp": 1787653622894,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 35,
+                "x": 241.2040322333466,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        -180,
+                        -3.6222547789904967e-06,
+                        -180
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 69,
+            "timestamp": 1787653622903,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 36,
+                "x": 241.2040322333466,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 0.78,
+                    "angles": [
+                        2.4405378668642283e-21,
+                        3.6222547789904967e-06,
+                        179.99999999999994
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 70,
+            "timestamp": 1787653622921,
+            "action": "PASTE_CLIPBOARD",
+            "data": {
+                "newIds": [
+                    33,
+                    34,
+                    35,
+                    36
+                ]
+            }
+        },
+        {
+            "step": 71,
+            "timestamp": 1787653640326,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 33
+            }
+        },
+        {
+            "step": 72,
+            "timestamp": 1787653640326,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 34
+            }
+        },
+        {
+            "step": 73,
+            "timestamp": 1787653640326,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 35
+            }
+        },
+        {
+            "step": 74,
+            "timestamp": 1787653640327,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 36
+            }
+        },
+        {
+            "step": 75,
+            "timestamp": 1787653644641,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 17
+            }
+        },
+        {
+            "step": 76,
+            "timestamp": 1787653644641,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 18
+            }
+        },
+        {
+            "step": 77,
+            "timestamp": 1787653644641,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 19
+            }
+        },
+        {
+            "step": 78,
+            "timestamp": 1787653644641,
+            "action": "REMOVE_NODE",
+            "data": {
+                "id": 20
+            }
+        }
+    ]
+}

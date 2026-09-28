@@ -1,0 +1,335 @@
+{
+    "timestamp": 1787660438.3471835,
+    "model_name": "GIDEON-Realtime-Session",
+    "total_nodes": 2,
+    "nodes": [
+        {
+            "id": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 1,
+                "angles": [
+                    0,
+                    0,
+                    0
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 2,
+            "x": 0,
+            "y": 1.2180769506112296e-16,
+            "z": -181.00536468844788,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 1,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        }
+    ],
+    "edges": [],
+    "total_steps": 15,
+    "timeline": [
+        {
+            "step": 1,
+            "timestamp": 1787660377500,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 2,
+            "timestamp": 1787660394221,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 2,
+                "x": -140,
+                "y": 0,
+                "z": -180,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        180,
+                        0,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 3,
+            "timestamp": 1787660395847,
+            "action": "CENTER_SELECTED",
+            "data": {
+                "nodes": [
+                    2
+                ]
+            }
+        },
+        {
+            "step": 4,
+            "timestamp": 1787660398558,
+            "action": "TRANSFORM_NODE",
+            "data": {
+                "id": 2,
+                "x": 0,
+                "y": 0,
+                "z": -178.56303159293768,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "step": 5,
+            "timestamp": 1787660405577,
+            "action": "TRANSFORM_NODE",
+            "data": {
+                "id": 2,
+                "x": 0,
+                "y": -7.85584003347275e-16,
+                "z": -184.97781178829058,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "step": 6,
+            "timestamp": 1787660408833,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 0.3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 7,
+            "timestamp": 1787660408836,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 8,
+            "timestamp": 1787660418938,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 0.3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 9,
+            "timestamp": 1787660418939,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 10,
+            "timestamp": 1787660424481,
+            "action": "TRANSFORM_NODE",
+            "data": {
+                "id": 2,
+                "x": 0,
+                "y": 3.7411282322219394e-16,
+                "z": -181.94513696942934,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "step": 11,
+            "timestamp": 1787660429039,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 0.3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 12,
+            "timestamp": 1787660429040,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 13,
+            "timestamp": 1787660431293,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 0.3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 14,
+            "timestamp": 1787660431294,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 15,
+            "timestamp": 1787660438335,
+            "action": "TRANSFORM_NODE",
+            "data": {
+                "id": 2,
+                "x": 0,
+                "y": 1.2180769506112296e-16,
+                "z": -181.00536468844788,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ]
+            }
+        }
+    ]
+}

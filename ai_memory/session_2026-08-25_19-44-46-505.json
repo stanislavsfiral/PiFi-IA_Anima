@@ -1,0 +1,496 @@
+{
+    "timestamp": 1787665486.505547,
+    "model_name": "GIDEON-Realtime-Session",
+    "total_nodes": 2,
+    "nodes": [
+        {
+            "id": 1,
+            "x": 0,
+            "y": 0,
+            "z": -72.15105140441622,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 1,
+                "angles": [
+                    0,
+                    0,
+                    0
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": false,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        },
+        {
+            "id": 2,
+            "x": 0,
+            "y": 0,
+            "z": -180,
+            "params": {
+                "N": 5,
+                "target_len": 1000,
+                "scale": 1,
+                "stretch": 1,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ],
+                "activeGate": "ROUTER_SWAP",
+                "showRight": true,
+                "showS": true,
+                "showLeft": true,
+                "showSLeft": true,
+                "rightSub": {
+                    "height": 100
+                },
+                "leftSub": {
+                    "height": 100
+                },
+                "sRightSub": {
+                    "height": 100
+                },
+                "sLeftSub": {
+                    "height": 100
+                }
+            }
+        }
+    ],
+    "edges": [],
+    "total_steps": 27,
+    "timeline": [
+        {
+            "step": 1,
+            "timestamp": 1787660377500,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": false,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 2,
+            "timestamp": 1787660394221,
+            "action": "ADD_NODE",
+            "data": {
+                "id": 2,
+                "x": -140,
+                "y": 0,
+                "z": -180,
+                "params": {
+                    "N": 5,
+                    "target_len": 1000,
+                    "scale": 1,
+                    "stretch": 1,
+                    "angles": [
+                        180,
+                        0,
+                        0
+                    ],
+                    "activeGate": "ROUTER_SWAP",
+                    "showRight": true,
+                    "showS": true,
+                    "showLeft": true,
+                    "showSLeft": true,
+                    "rightSub": {
+                        "height": 100
+                    },
+                    "leftSub": {
+                        "height": 100
+                    },
+                    "sRightSub": {
+                        "height": 100
+                    },
+                    "sLeftSub": {
+                        "height": 100
+                    }
+                }
+            }
+        },
+        {
+            "step": 3,
+            "timestamp": 1787660395847,
+            "action": "CENTER_SELECTED",
+            "data": {
+                "nodes": [
+                    2
+                ]
+            }
+        },
+        {
+            "step": 4,
+            "timestamp": 1787660398558,
+            "action": "TRANSFORM_NODE",
+            "data": {
+                "id": 2,
+                "x": 0,
+                "y": 0,
+                "z": -178.56303159293768,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "step": 5,
+            "timestamp": 1787660405577,
+            "action": "TRANSFORM_NODE",
+            "data": {
+                "id": 2,
+                "x": 0,
+                "y": -7.85584003347275e-16,
+                "z": -184.97781178829058,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "step": 6,
+            "timestamp": 1787660408833,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 0.3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 7,
+            "timestamp": 1787660408836,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 8,
+            "timestamp": 1787660418938,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 0.3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 9,
+            "timestamp": 1787660418939,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 10,
+            "timestamp": 1787660424481,
+            "action": "TRANSFORM_NODE",
+            "data": {
+                "id": 2,
+                "x": 0,
+                "y": 3.7411282322219394e-16,
+                "z": -181.94513696942934,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "step": 11,
+            "timestamp": 1787660429039,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 0.3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 12,
+            "timestamp": 1787660429040,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 13,
+            "timestamp": 1787660431293,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 0.3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 14,
+            "timestamp": 1787660431294,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 15,
+            "timestamp": 1787660438335,
+            "action": "TRANSFORM_NODE",
+            "data": {
+                "id": 2,
+                "x": 0,
+                "y": 1.2180769506112296e-16,
+                "z": -181.00536468844788,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "step": 16,
+            "timestamp": 1787660441876,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 0.3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 17,
+            "timestamp": 1787660441878,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 18,
+            "timestamp": 1787660445260,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 0.3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 19,
+            "timestamp": 1787660445263,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 20,
+            "timestamp": 1787660451469,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 0.3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 21,
+            "timestamp": 1787660451470,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 22,
+            "timestamp": 1787660460754,
+            "action": "TRANSFORM_NODE",
+            "data": {
+                "id": 2,
+                "x": 0,
+                "y": 6.610358032627906e-17,
+                "z": -180.46022330379418,
+                "angles": [
+                    180,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "step": 23,
+            "timestamp": 1787660469986,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 0.3,
+                "adjustedCount": 11
+            }
+        },
+        {
+            "step": 24,
+            "timestamp": 1787660469990,
+            "action": "SNAP_ALL_OR_SELECTED",
+            "data": {
+                "targets": [
+                    1,
+                    2
+                ],
+                "tolerance": 3,
+                "adjustedCount": 12
+            }
+        },
+        {
+            "step": 25,
+            "timestamp": 1787665475272,
+            "action": "HIDE_PART",
+            "data": {
+                "id": 1,
+                "part": null
+            }
+        },
+        {
+            "step": 26,
+            "timestamp": 1787665481076,
+            "action": "TRANSFORM_NODE",
+            "data": {
+                "id": 1,
+                "x": 0,
+                "y": 0,
+                "z": -70.74196873126982,
+                "angles": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "step": 27,
+            "timestamp": 1787665486496,
+            "action": "TRANSFORM_NODE",
+            "data": {
+                "id": 1,
+                "x": 0,
+                "y": 0,
+                "z": -72.15105140441622,
+                "angles": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        }
+    ]
+}
