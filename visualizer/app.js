@@ -138,17 +138,17 @@ window.computeQuantumState = async function computeQuantumState(nodes, edges) {
 }
 
 // ========================================================
-// ГЕНЕРАЦИЯ МОДУЛЬНОГО СТЕКЛЯННОГО КУБА ДЛЯ ПРОПОРЦИИ 0.7778 / 0.78
+// ГЕНЕРАЦИЯ ИНДИВИДУАЛЬНОГО СТЕКЛЯННОГО КУБА ДЛЯ УЗЛА
 // ========================================================
-function createModularGlassCube(size = 0.7778) {
-    const geometry = new THREE.BoxGeometry(size * 100, size * 100, size * 100); // Масштабируем под габариты сцены
+function createModularGlassCube(boxSize = 280) {
+    const geometry = new THREE.BoxGeometry(boxSize, boxSize, boxSize);
     const glassMaterial = new THREE.MeshPhysicalMaterial({
         color: 0x00e5ff,
         transparent: true,
-        opacity: 0.12,
+        opacity: 0.1,
         roughness: 0.1,
         metalness: 0.1,
-        transmission: 0.85,
+        transmission: 0.9,
         ior: 1.5,
         side: THREE.DoubleSide,
         depthWrite: false
@@ -156,7 +156,7 @@ function createModularGlassCube(size = 0.7778) {
     const cubeMesh = new THREE.Mesh(geometry, glassMaterial);
 
     const wireframeGeometry = new THREE.EdgesGeometry(geometry);
-    const wireframeMaterial = new THREE.LineBasicMaterial({ color: 0x00ffaa, linewidth: 1.5 });
+    const wireframeMaterial = new THREE.LineBasicMaterial({ color: 0x00ffaa, linewidth: 2 });
     const wireframe = new THREE.LineSegments(wireframeGeometry, wireframeMaterial);
     cubeMesh.add(wireframe);
 
@@ -345,14 +345,14 @@ function updateScene() {
             nodeGroup.rotation.copy(euler);
 
             let nodeScale = (node.params && node.params.scale !== undefined) ? node.params.scale : 1.0;
+            let nodeStretch = (node.params && node.params.stretch !== undefined) ? node.params.stretch : 1.0;
             
-            // ПРОВЕРКА ПРОПОРЦИИ И ДОБАВЛЕНИЕ СТЕКЛЯННОГО КУБА
-            if (Math.abs(nodeScale - 0.7778) < 0.001 || Math.abs(nodeScale - 0.78) < 0.001) {
-                const modularCube = createModularGlassCube(nodeScale);
+            // ПРОВЕРКА ПАРАМЕТРА STRETCH (РАСТЯЖЕНИЕ ДО КУБИЧЕСКИХ ПРОПОРЦИЙ)
+            if (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001) {
+                const modularCube = createModularGlassCube(280);
                 nodeGroup.add(modularCube);
             }
 
-            let nodeStretch = (node.params && node.params.stretch !== undefined) ? node.params.stretch : 1.0;
             let nodeN = (node.params && node.params.N !== undefined) ? node.params.N : 5;
 
             let baseR = 60 + nodeN * 2; 
