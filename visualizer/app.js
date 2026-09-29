@@ -170,28 +170,28 @@ window.computeQuantumState = async function computeQuantumState(nodes, edges) {
 }
 
 // ========================================================
-// ГЛОБАЛЬНАЯ СТЕКЛЯННАЯ КВАНТОВАЯ СФЕРА (ДИАМЕТР 140, РАДИУС 70)
+// ПРОЗРАЧНАЯ СТЕКЛЯННАЯ СФЕРА (УКРУПНЕННЫЙ РАДИУС 100 ДЛЯ СТЫКОВКИ)
 // ========================================================
-function createModularGlassSphere(radius = 70) {
+function createModularGlassSphere(radius = 100) {
     const geometry = new THREE.SphereGeometry(radius, 32, 32);
     const glassMaterial = new THREE.MeshPhysicalMaterial({
         color: 0x00aaff,
         transparent: true,
-        opacity: 0.05,
-        roughness: 0.15,
+        opacity: 0.04,          // Высокая прозрачность стекла
+        roughness: 0.1,
         metalness: 0.1,
-        transmission: 0.95,
+        transmission: 0.98,     // Полное светопропускание
         ior: 1.5,
         side: THREE.DoubleSide,
         depthWrite: false
     });
     const sphereMesh = new THREE.Mesh(geometry, glassMaterial);
 
-    const wireframeGeometry = new THREE.WireframeGeometry(geometry);
+    const wireframeGeometry = new THREE.EdgesGeometry(geometry);
     const wireframeMaterial = new THREE.LineBasicMaterial({ 
         color: 0x00ffaa, 
         transparent: true, 
-        opacity: 0.25, 
+        opacity: 0.3, 
         linewidth: 1 
     });
     const wireframe = new THREE.LineSegments(wireframeGeometry, wireframeMaterial);
@@ -398,9 +398,9 @@ function updateScene() {
             let hasEdgesDefined = customModelSource.edges && customModelSource.edges.length > 0;
             const isConnected = hasEdgesDefined ? (degree > 0) : true;
 
-            // СОЗДАЕМ СТЕКЛЯННУЮ СФЕРУ РАДИУСОМ 70 В МИРОВЫХ КООРДИНАТАХ УЗЛА
+            // СОЗДАЕМ ПРОЗРАЧНУЮ СФЕРУ РАДИУСОМ 100 ДЛЯ ПЛОТНОГО КАСАНИЯ
             if (isModularCubesEnabled && isConnected && (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001)) {
-                const modularSphere = createModularGlassSphere(70);
+                const modularSphere = createModularGlassSphere(100);
                 modularSphere.position.set(px, py, pz);
                 modularSphere.rotation.set(0, 0, 0);
                 spiralGroup.add(modularSphere);
