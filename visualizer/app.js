@@ -11,7 +11,7 @@ let core = new GideonWebCore();
 let globalNodesData = {}; 
 let selectedNodeIds = []; 
 
-// Анимация лазера и режим индивидуальных кубиков
+// Анимация лазера и режим индивидуальных сфер
 let isAnimationActive = false;
 let isModularCubesEnabled = true; // По умолчанию включено
 let currentWaveAmplitude = 1.0;
@@ -89,12 +89,12 @@ function init3D() {
         });
     }
 
-    // Создаем и привязываем кнопку переключения модульных кубиков в шапке
+    // Создаем и привязываем кнопку переключения модульных сфер в шапке
     let toggleCubesBtn = document.getElementById('toggleModularCubesBtn');
     if (!toggleCubesBtn) {
         toggleCubesBtn = document.createElement('button');
         toggleCubesBtn.id = 'toggleModularCubesBtn';
-        toggleCubesBtn.innerText = '🧊 Кубики: ВКЛ';
+        toggleCubesBtn.innerText = '🔮 Сферы: ВКЛ';
         toggleCubesBtn.style.cssText = 'background: #1f4a38; color: #00ffaa; border: 1px solid #00ffaa; padding: 6px 12px; border-radius: 6px; cursor: pointer; margin-left: 10px; font-weight: bold;';
         
         if (toggleAnimBtn && toggleAnimBtn.parentNode) {
@@ -106,12 +106,12 @@ function init3D() {
         toggleCubesBtn.addEventListener('click', () => {
             isModularCubesEnabled = !isModularCubesEnabled;
             if (isModularCubesEnabled) {
-                toggleCubesBtn.innerText = '🧊 Кубики: ВКЛ';
+                toggleCubesBtn.innerText = '🔮 Сферы: ВКЛ';
                 toggleCubesBtn.style.background = '#1f4a38';
                 toggleCubesBtn.style.color = '#00ffaa';
                 toggleCubesBtn.style.border = '1px solid #00ffaa';
             } else {
-                toggleCubesBtn.innerText = '🧊 Кубики: ВЫКЛ';
+                toggleCubesBtn.innerText = '🔮 Сферы: ВЫКЛ';
                 toggleCubesBtn.style.background = '#2d1f4a';
                 toggleCubesBtn.style.color = '#ff88ff';
                 toggleCubesBtn.style.border = '1px solid #ff00ff';
@@ -170,34 +170,34 @@ window.computeQuantumState = async function computeQuantumState(nodes, edges) {
 }
 
 // ========================================================
-// ГЛОБАЛЬНЫЙ ФИКСИРОВАННЫЙ СТЕКЛЯННЫЙ КУБ СЕТКИ (140)
+// ГЛОБАЛЬНАЯ СТЕКЛЯННАЯ КВАНТОВАЯ СФЕРА (ДИАМЕТР 140, РАДИУС 70)
 // ========================================================
-function createModularGlassCube(boxSize = 140) {
-    const geometry = new THREE.BoxGeometry(boxSize, boxSize, boxSize);
+function createModularGlassSphere(radius = 70) {
+    const geometry = new THREE.SphereGeometry(radius, 32, 32);
     const glassMaterial = new THREE.MeshPhysicalMaterial({
         color: 0x00aaff,
         transparent: true,
-        opacity: 0.04,
-        roughness: 0.2,
+        opacity: 0.05,
+        roughness: 0.15,
         metalness: 0.1,
         transmission: 0.95,
         ior: 1.5,
         side: THREE.DoubleSide,
         depthWrite: false
     });
-    const cubeMesh = new THREE.Mesh(geometry, glassMaterial);
+    const sphereMesh = new THREE.Mesh(geometry, glassMaterial);
 
-    const wireframeGeometry = new THREE.EdgesGeometry(geometry);
+    const wireframeGeometry = new THREE.WireframeGeometry(geometry);
     const wireframeMaterial = new THREE.LineBasicMaterial({ 
         color: 0x00ffaa, 
         transparent: true, 
-        opacity: 0.35, 
+        opacity: 0.25, 
         linewidth: 1 
     });
     const wireframe = new THREE.LineSegments(wireframeGeometry, wireframeMaterial);
-    cubeMesh.add(wireframe);
+    sphereMesh.add(wireframe);
 
-    return cubeMesh;
+    return sphereMesh;
 }
 
 // ========================================================
@@ -364,7 +364,6 @@ function updateScene() {
 
         let nodePathsMap = {};
 
-        // Вычисляем степень связности (degree) для каждого узла по массиву edges
         let nodeDegrees = {};
         customModelSource.nodes.forEach(n => nodeDegrees[n.id] = 0);
 
@@ -395,17 +394,16 @@ function updateScene() {
             let nodeScale = (node.params && node.params.scale !== undefined) ? node.params.scale : 1.0;
             let nodeStretch = (node.params && node.params.stretch !== undefined) ? node.params.stretch : 1.0;
             
-            // ПРОВЕРКА СВЯЗНОСТИ: СТРОИМ КУБ ТОЛЬКО ДЛЯ НЕИЗОЛИРОВАННЫХ УЗЛОВ (degree > 0)
             let degree = nodeDegrees[node.id] || 0;
             let hasEdgesDefined = customModelSource.edges && customModelSource.edges.length > 0;
             const isConnected = hasEdgesDefined ? (degree > 0) : true;
 
-            // СОЗДАЕМ ГЛОБАЛЬНЫЙ (НЕНАКЛОНЕННЫЙ) КУБ ЯЧЕЙКИ В МИРОВЫХ КООРДИНАТАХ УЗЛА
+            // СОЗДАЕМ СТЕКЛЯННУЮ СФЕРУ РАДИУСОМ 70 В МИРОВЫХ КООРДИНАТАХ УЗЛА
             if (isModularCubesEnabled && isConnected && (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001)) {
-                const modularCube = createModularGlassCube(140);
-                modularCube.position.set(px, py, pz); // Ставим ровно по мировым координатам узла
-                modularCube.rotation.set(0, 0, 0);     // Никаких наклонов — идеальная ортогональная сетка!
-                spiralGroup.add(modularCube);
+                const modularSphere = createModularGlassSphere(70);
+                modularSphere.position.set(px, py, pz);
+                modularSphere.rotation.set(0, 0, 0);
+                spiralGroup.add(modularSphere);
             }
 
             let nodeN = (node.params && node.params.N !== undefined) ? node.params.N : 5;
