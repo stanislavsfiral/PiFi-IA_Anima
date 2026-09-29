@@ -138,17 +138,17 @@ window.computeQuantumState = async function computeQuantumState(nodes, edges) {
 }
 
 // ========================================================
-// ГЕНЕРАЦИЯ ИНДИВИДУАЛЬНОГО СТЕКЛЯННОГО КУБА ДЛЯ УЗЛА
+// КОМПАКТНЫЙ И МЯГКИЙ СТЕКЛЯННЫЙ КУБ ДЛЯ УЗЛА
 // ========================================================
-function createModularGlassCube(boxSize = 280) {
+function createModularGlassCube(boxSize = 190) {
     const geometry = new THREE.BoxGeometry(boxSize, boxSize, boxSize);
     const glassMaterial = new THREE.MeshPhysicalMaterial({
-        color: 0x00e5ff,
+        color: 0x00aaff,
         transparent: true,
-        opacity: 0.1,
-        roughness: 0.1,
+        opacity: 0.06,
+        roughness: 0.2,
         metalness: 0.1,
-        transmission: 0.9,
+        transmission: 0.95,
         ior: 1.5,
         side: THREE.DoubleSide,
         depthWrite: false
@@ -156,7 +156,12 @@ function createModularGlassCube(boxSize = 280) {
     const cubeMesh = new THREE.Mesh(geometry, glassMaterial);
 
     const wireframeGeometry = new THREE.EdgesGeometry(geometry);
-    const wireframeMaterial = new THREE.LineBasicMaterial({ color: 0x00ffaa, linewidth: 2 });
+    const wireframeMaterial = new THREE.LineBasicMaterial({ 
+        color: 0x00ffaa, 
+        transparent: true, 
+        opacity: 0.4, 
+        linewidth: 1 
+    });
     const wireframe = new THREE.LineSegments(wireframeGeometry, wireframeMaterial);
     cubeMesh.add(wireframe);
 
@@ -347,9 +352,9 @@ function updateScene() {
             let nodeScale = (node.params && node.params.scale !== undefined) ? node.params.scale : 1.0;
             let nodeStretch = (node.params && node.params.stretch !== undefined) ? node.params.stretch : 1.0;
             
-            // ПРОВЕРКА ПАРАМЕТРА STRETCH (РАСТЯЖЕНИЕ ДО КУБИЧЕСКИХ ПРОПОРЦИЙ)
+            // ПРОВЕРКА ПАРАМЕТРА STRETCH ДЛЯ КОМПАКТНОГО КУБА
             if (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001) {
-                const modularCube = createModularGlassCube(280);
+                const modularCube = createModularGlassCube(190);
                 nodeGroup.add(modularCube);
             }
 
