@@ -170,33 +170,23 @@ window.computeQuantumState = async function computeQuantumState(nodes, edges) {
 }
 
 // ========================================================
-// ПРОЗРАЧНАЯ СТЕКЛЯННАЯ СФЕРА (УКРУПНЕННЫЙ РАДИУС 100 ДЛЯ СТЫКОВКИ)
+// ЧИСТЫЕ СТЕКЛЯННЫЕ ШАРЫ (РАДИУС 60 ПО ГРАНИЦЕ СТЫКОВКИ СФИРАЛЕЙ)
 // ========================================================
-function createModularGlassSphere(radius = 100) {
+function createModularGlassSphere(radius = 60) {
     const geometry = new THREE.SphereGeometry(radius, 32, 32);
     const glassMaterial = new THREE.MeshPhysicalMaterial({
         color: 0x00aaff,
         transparent: true,
-        opacity: 0.04,          // Высокая прозрачность стекла
+        opacity: 0.08,          // Чистое прозрачное стекло
         roughness: 0.1,
         metalness: 0.1,
-        transmission: 0.98,     // Полное светопропускание
+        transmission: 0.95,     // Полное светопропускание
         ior: 1.5,
         side: THREE.DoubleSide,
         depthWrite: false
     });
+    // Без каркаса и линий сетки — только чистая стеклянная форма
     const sphereMesh = new THREE.Mesh(geometry, glassMaterial);
-
-    const wireframeGeometry = new THREE.EdgesGeometry(geometry);
-    const wireframeMaterial = new THREE.LineBasicMaterial({ 
-        color: 0x00ffaa, 
-        transparent: true, 
-        opacity: 0.3, 
-        linewidth: 1 
-    });
-    const wireframe = new THREE.LineSegments(wireframeGeometry, wireframeMaterial);
-    sphereMesh.add(wireframe);
-
     return sphereMesh;
 }
 
@@ -398,9 +388,9 @@ function updateScene() {
             let hasEdgesDefined = customModelSource.edges && customModelSource.edges.length > 0;
             const isConnected = hasEdgesDefined ? (degree > 0) : true;
 
-            // СОЗДАЕМ ПРОЗРАЧНУЮ СФЕРУ РАДИУСОМ 100 ДЛЯ ПЛОТНОГО КАСАНИЯ
+            // СОЗДАЕМ ЧИСТУЮ СТЕКЛЯННУЮ СФЕРУ РАДИУСОМ 60 ПО ТОЧКАМ СТЫКОВКИ
             if (isModularCubesEnabled && isConnected && (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001)) {
-                const modularSphere = createModularGlassSphere(100);
+                const modularSphere = createModularGlassSphere(60);
                 modularSphere.position.set(px, py, pz);
                 modularSphere.rotation.set(0, 0, 0);
                 spiralGroup.add(modularSphere);
@@ -697,8 +687,8 @@ if (harmAxisSelectEl) harmAxisSelectEl.addEventListener('change', updateScene);
 const coresInputEl = document.getElementById('coresInput');
 if (coresInputEl) coresInputEl.addEventListener('change', updateScene);
 
+ModelFileInput = document.getElementById('modelFileInput');
 const loadModelBtn = document.getElementById('loadModelBtn');
-const modelFileInput = document.getElementById('modelFileInput');
 if (loadModelBtn && modelFileInput) {
     loadModelBtn.addEventListener('click', () => modelFileInput.click());
     modelFileInput.addEventListener('change', (event) => {
