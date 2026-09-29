@@ -91,6 +91,17 @@ function init3D() {
 
     // Создаем и привязываем кнопку переключения модульных кубиков в шапке
     let toggleCubesBtn = document.getElementById('toggleModularCubesBtn');
+    if (!toggleCubesBtn) {
+        toggleCubesBtn = document.createElement('button');
+        toggleCubesBtn.id = 'toggleModularCubesBtn';
+        toggleCubesBtn.innerText = '🧊 Кубики: ВКЛ';
+        toggleCubesBtn.style.cssText = 'background: #1f4a38; color: #00ffaa; border: 1px solid #00ffaa; padding: 6px 12px; border-radius: 6px; cursor: pointer; margin-left: 10px; font-weight: bold;';
+        
+        if (toggleAnimBtn && toggleAnimBtn.parentNode) {
+            toggleAnimBtn.parentNode.insertBefore(toggleCubesBtn, toggleAnimBtn.nextSibling);
+        }
+    }
+
     if (toggleCubesBtn) {
         toggleCubesBtn.addEventListener('click', () => {
             isModularCubesEnabled = !isModularCubesEnabled;
@@ -353,13 +364,16 @@ function updateScene() {
 
         let nodePathsMap = {};
 
-        // Собираем множество ID узлов, у которых есть хотя бы одна связь (ребро)
+        // Собираем множество ID узлов, у которых есть связи (ребра)
         let connectedNodeIds = new Set();
-        if (customModelSource.edges && Array.isArray(customModelSource.edges)) {
+        if (customModelSource.edges && Array.isArray(customModelSource.edges) && customModelSource.edges.length > 0) {
             customModelSource.edges.forEach(edge => {
                 if (edge.from) connectedNodeIds.add(edge.from);
                 if (edge.to) connectedNodeIds.add(edge.to);
             });
+        } else {
+            // Если рёбра не заданы в JSON явно, считаем все узлы соединенными в единую структуру
+            customModelSource.nodes.forEach(n => connectedNodeIds.add(n.id));
         }
 
         customModelSource.nodes.forEach((node) => {
@@ -382,7 +396,7 @@ function updateScene() {
             let nodeScale = (node.params && node.params.scale !== undefined) ? node.params.scale : 1.0;
             let nodeStretch = (node.params && node.params.stretch !== undefined) ? node.params.stretch : 1.0;
             
-            // СОЗДАЕМ КУБ ТОЛЬКО ЕСЛИ ВКЛЮЧЕНЫ КУБИКИ И УЗЕЛ СФИРАЛИ СОСТЫКОВАН ПО РЁБРАМ (ИЛИ ВСЕГО 1 УЗЕЛ)
+            // СОЗДАЕМ КУБ ТОЛЬКО ДЛЯ СОЕДИНЕННЫХ / АКТИВНЫХ УЗЛОВ
             const isConnected = connectedNodeIds.has(node.id) || customModelSource.nodes.length === 1;
             if (isModularCubesEnabled && isConnected && (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001)) {
                 const modularCube = createModularGlassCube(140);
