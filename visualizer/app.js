@@ -138,6 +138,32 @@ window.computeQuantumState = async function computeQuantumState(nodes, edges) {
 }
 
 // ========================================================
+// ГЕНЕРАЦИЯ МОДУЛЬНОГО СТЕКЛЯННОГО КУБА ДЛЯ ПРОПОРЦИИ 0.7778 / 0.78
+// ========================================================
+function createModularGlassCube(size = 0.7778) {
+    const geometry = new THREE.BoxGeometry(size * 100, size * 100, size * 100); // Масштабируем под габариты сцены
+    const glassMaterial = new THREE.MeshPhysicalMaterial({
+        color: 0x00e5ff,
+        transparent: true,
+        opacity: 0.12,
+        roughness: 0.1,
+        metalness: 0.1,
+        transmission: 0.85,
+        ior: 1.5,
+        side: THREE.DoubleSide,
+        depthWrite: false
+    });
+    const cubeMesh = new THREE.Mesh(geometry, glassMaterial);
+
+    const wireframeGeometry = new THREE.EdgesGeometry(geometry);
+    const wireframeMaterial = new THREE.LineBasicMaterial({ color: 0x00ffaa, linewidth: 1.5 });
+    const wireframe = new THREE.LineSegments(wireframeGeometry, wireframeMaterial);
+    cubeMesh.add(wireframe);
+
+    return cubeMesh;
+}
+
+// ========================================================
 // СОЗДАНИЕ ТЕКСТОВОЙ МЕТКИ (СПРАЙТА) ДЛЯ ВХОДОВ И ВЫХОДОВ
 // ========================================================
 function createTextSprite(message, colorHex) {
@@ -319,6 +345,13 @@ function updateScene() {
             nodeGroup.rotation.copy(euler);
 
             let nodeScale = (node.params && node.params.scale !== undefined) ? node.params.scale : 1.0;
+            
+            // ПРОВЕРКА ПРОПОРЦИИ И ДОБАВЛЕНИЕ СТЕКЛЯННОГО КУБА
+            if (Math.abs(nodeScale - 0.7778) < 0.001 || Math.abs(nodeScale - 0.78) < 0.001) {
+                const modularCube = createModularGlassCube(nodeScale);
+                nodeGroup.add(modularCube);
+            }
+
             let nodeStretch = (node.params && node.params.stretch !== undefined) ? node.params.stretch : 1.0;
             let nodeN = (node.params && node.params.N !== undefined) ? node.params.N : 5;
 
@@ -515,7 +548,6 @@ function animate() {
         const animSpeedRangeEl = document.getElementById('animSpeedRange');
         let speedMultiplier = animSpeedRangeEl ? (parseFloat(animSpeedRangeEl.value) || 1.0) : 1.0;
 
-        // Спавн сверхъярких красных лазерных лучей (0xff0000, max opacity)
         if (Math.random() < 0.45 && globalChainPaths.length > 0) {
             const targetPath = globalChainPaths[Math.floor(Math.random() * globalChainPaths.length)];
             if (targetPath && targetPath.length > 5) {
