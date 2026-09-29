@@ -138,7 +138,7 @@ window.computeQuantumState = async function computeQuantumState(nodes, edges) {
 }
 
 // ========================================================
-// ТОЧНЫЙ КОМПАКТНЫЙ СТЕКЛЯННЫЙ КУБ ДЛЯ ОДИНОЧНОГО УЗЛА (140)
+// ТОЧНЫЙ КОМПАКТНЫЙ СТЕКЛЯННЫЙ КУБ ПО РАЗМЕРУ СФИРАЛИ (140)
 // ========================================================
 function createModularGlassCube(boxSize = 140) {
     const geometry = new THREE.BoxGeometry(boxSize, boxSize, boxSize);
@@ -331,7 +331,6 @@ function updateScene() {
         if (resetModelBtn) resetModelBtn.style.display = 'block';
 
         let nodePathsMap = {};
-        const isSingleNode = customModelSource.nodes.length === 1;
 
         customModelSource.nodes.forEach((node) => {
             const nodeGroup = new THREE.Group();
@@ -353,8 +352,8 @@ function updateScene() {
             let nodeScale = (node.params && node.params.scale !== undefined) ? node.params.scale : 1.0;
             let nodeStretch = (node.params && node.params.stretch !== undefined) ? node.params.stretch : 1.0;
             
-            // СОЗДАЕМ ИНДИВИДУАЛЬНЫЙ КУБ ТОЛЬКО ДЛЯ ЕДИНИЧНОГО УЗЛА, ЧТОБЫ В СБОРКАХ НЕ БЫЛО ПЕРЕСЕЧЕНИЙ
-            if (isSingleNode && (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001)) {
+            // ПРОВЕРКА ПАРАМЕТРА STRETCH ДЛЯ ТОЧНОГО ПОДГОНА КУБА (140)
+            if (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001) {
                 const modularCube = createModularGlassCube(140);
                 nodeGroup.add(modularCube);
             }
@@ -648,7 +647,7 @@ const harmAxisSelectEl = document.getElementById('harmAxisSelect');
 if (harmAxisSelectEl) harmAxisSelectEl.addEventListener('change', updateScene);
 
 const coresInputEl = document.getElementById('coresInput');
-if (coresInputEl) coresInputEl.addEventListener('change', updateScene);
+if (coresInputEl) coresInputEl.endswith = coresInputEl.addEventListener('change', updateScene);
 
 const loadModelBtn = document.getElementById('loadModelBtn');
 const modelFileInput = document.getElementById('modelFileInput');
