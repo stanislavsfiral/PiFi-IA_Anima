@@ -170,14 +170,14 @@ window.computeQuantumState = async function computeQuantumState(nodes, edges) {
 }
 
 // ========================================================
-// ТОЧНЫЙ КОМПАКТНЫЙ СТЕКЛЯННЫЙ КУБ ПО РАЗМЕРУ СФИРАЛИ (140)
+// ГЛОБАЛЬНЫЙ ФИКСИРОВАННЫЙ СТЕКЛЯННЫЙ КУБ СЕТКИ (140)
 // ========================================================
 function createModularGlassCube(boxSize = 140) {
     const geometry = new THREE.BoxGeometry(boxSize, boxSize, boxSize);
     const glassMaterial = new THREE.MeshPhysicalMaterial({
         color: 0x00aaff,
         transparent: true,
-        opacity: 0.05,
+        opacity: 0.04,
         roughness: 0.2,
         metalness: 0.1,
         transmission: 0.95,
@@ -191,7 +191,7 @@ function createModularGlassCube(boxSize = 140) {
     const wireframeMaterial = new THREE.LineBasicMaterial({ 
         color: 0x00ffaa, 
         transparent: true, 
-        opacity: 0.4, 
+        opacity: 0.35, 
         linewidth: 1 
     });
     const wireframe = new THREE.LineSegments(wireframeGeometry, wireframeMaterial);
@@ -395,14 +395,17 @@ function updateScene() {
             let nodeScale = (node.params && node.params.scale !== undefined) ? node.params.scale : 1.0;
             let nodeStretch = (node.params && node.params.stretch !== undefined) ? node.params.stretch : 1.0;
             
-            // СТРОИМ КУБ ДЛЯ ВСЕХ УЗЛОВ, У КОТОРЫХ ЕСТЬ ХОТЯ БЫ ОДНА СВЯЗЬ (degree > 0), ИСКЛЮЧАЯ ТОЛЬКО ИЗОЛИРОВАННЫЕ (degree === 0)
+            // ПРОВЕРКА СВЯЗНОСТИ: СТРОИМ КУБ ТОЛЬКО ДЛЯ НЕИЗОЛИРОВАННЫХ УЗЛОВ (degree > 0)
             let degree = nodeDegrees[node.id] || 0;
             let hasEdgesDefined = customModelSource.edges && customModelSource.edges.length > 0;
             const isConnected = hasEdgesDefined ? (degree > 0) : true;
 
+            // СОЗДАЕМ ГЛОБАЛЬНЫЙ (НЕНАКЛОНЕННЫЙ) КУБ ЯЧЕЙКИ В МИРОВЫХ КООРДИНАТАХ УЗЛА
             if (isModularCubesEnabled && isConnected && (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001)) {
                 const modularCube = createModularGlassCube(140);
-                nodeGroup.add(modularCube);
+                modularCube.position.set(px, py, pz); // Ставим ровно по мировым координатам узла
+                modularCube.rotation.set(0, 0, 0);     // Никаких наклонов — идеальная ортогональная сетка!
+                spiralGroup.add(modularCube);
             }
 
             let nodeN = (node.params && node.params.N !== undefined) ? node.params.N : 5;
