@@ -138,14 +138,14 @@ window.computeQuantumState = async function computeQuantumState(nodes, edges) {
 }
 
 // ========================================================
-// КОМПАКТНЫЙ И МЯГКИЙ СТЕКЛЯННЫЙ КУБ ДЛЯ УЗЛА
+// ТОЧНЫЙ КОМПАКТНЫЙ СТЕКЛЯННЫЙ КУБ ПО РАЗМЕРУ СФИРАЛИ (140)
 // ========================================================
-function createModularGlassCube(boxSize = 190) {
+function createModularGlassCube(boxSize = 140) {
     const geometry = new THREE.BoxGeometry(boxSize, boxSize, boxSize);
     const glassMaterial = new THREE.MeshPhysicalMaterial({
         color: 0x00aaff,
         transparent: true,
-        opacity: 0.06,
+        opacity: 0.05,
         roughness: 0.2,
         metalness: 0.1,
         transmission: 0.95,
@@ -352,9 +352,9 @@ function updateScene() {
             let nodeScale = (node.params && node.params.scale !== undefined) ? node.params.scale : 1.0;
             let nodeStretch = (node.params && node.params.stretch !== undefined) ? node.params.stretch : 1.0;
             
-            // ПРОВЕРКА ПАРАМЕТРА STRETCH ДЛЯ КОМПАКТНОГО КУБА
+            // ПРОВЕРКА ПАРАМЕТРА STRETCH ДЛЯ ТОЧНОГО ПОДГОНА КУБА (140)
             if (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001) {
-                const modularCube = createModularGlassCube(190);
+                const modularCube = createModularGlassCube(140);
                 nodeGroup.add(modularCube);
             }
 
@@ -647,7 +647,7 @@ const harmAxisSelectEl = document.getElementById('harmAxisSelect');
 if (harmAxisSelectEl) harmAxisSelectEl.addEventListener('change', updateScene);
 
 const coresInputEl = document.getElementById('coresInput');
-if (coresInputEl) coresInputEl.addEventListener('change', updateScene);
+if (coresInputEl) coresInputEl.endswith = coresInputEl.addEventListener('change', updateScene);
 
 const loadModelBtn = document.getElementById('loadModelBtn');
 const modelFileInput = document.getElementById('modelFileInput');
