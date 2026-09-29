@@ -11,8 +11,9 @@ let core = new GideonWebCore();
 let globalNodesData = {}; 
 let selectedNodeIds = []; 
 
-// Анимация лазера выключена по умолчанию при входе
+// Анимация лазера и режим индивидуальных кубиков
 let isAnimationActive = false;
+let isModularCubesEnabled = true; // По умолчанию включено
 let currentWaveAmplitude = 1.0;
 
 const ottendorfCoder = new OttendorfFractalAddressing(140.0);
@@ -85,6 +86,39 @@ function init3D() {
                 toggleAnimBtn.style.color = '#ff88ff';
                 toggleAnimBtn.style.border = '1px solid #ff00ff';
             }
+        });
+    }
+
+    // Создаем и привязываем кнопку переключения модульных кубиков в шапке
+    const topBarControls = document.querySelector('.top-bar-right') || document.querySelector('header') || document.body;
+    let toggleCubesBtn = document.getElementById('toggleModularCubesBtn');
+    if (!toggleCubesBtn) {
+        toggleCubesBtn = document.createElement('button');
+        toggleCubesBtn.id = 'toggleModularCubesBtn';
+        toggleCubesBtn.innerText = '🧊 Кубики: ВКЛ';
+        toggleCubesBtn.style.cssText = 'background: #1f4a38; color: #00ffaa; border: 1px solid #00ffaa; padding: 6px 12px; border-radius: 6px; cursor: pointer; margin-left: 10px; font-weight: bold;';
+        
+        // Попробуем вставить рядом с кнопкой лазера
+        if (toggleAnimBtn && toggleAnimBtn.parentNode) {
+            toggleAnimBtn.parentNode.insertBefore(toggleCubesBtn, toggleAnimBtn.nextSibling);
+        }
+    }
+
+    if (toggleCubesBtn) {
+        toggleCubesBtn.addEventListener('click', () => {
+            isModularCubesEnabled = !isModularCubesEnabled;
+            if (isModularCubesEnabled) {
+                toggleCubesBtn.innerText = '🧊 Кубики: ВКЛ';
+                toggleCubesBtn.style.background = '#1f4a38';
+                toggleCubesBtn.style.color = '#00ffaa';
+                toggleCubesBtn.style.border = '1px solid #00ffaa';
+            } else {
+                toggleCubesBtn.innerText = '🧊 Кубики: ВЫКЛ';
+                toggleCubesBtn.style.background = '#2d1f4a';
+                toggleCubesBtn.style.color = '#ff88ff';
+                toggleCubesBtn.style.border = '1px solid #ff00ff';
+            }
+            updateScene();
         });
     }
 
@@ -352,8 +386,8 @@ function updateScene() {
             let nodeScale = (node.params && node.params.scale !== undefined) ? node.params.scale : 1.0;
             let nodeStretch = (node.params && node.params.stretch !== undefined) ? node.params.stretch : 1.0;
             
-            // ПРОВЕРКА ПАРАМЕТРА STRETCH ДЛЯ ТОЧНОГО ПОДГОНА КУБА (140)
-            if (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001) {
+            // СОЗДАЕМ КУБ ДЛЯ УЗЛА, ЕСЛИ ВКЛЮЧЕН ФЛАГ В ИНТЕРФЕЙСЕ
+            if (isModularCubesEnabled && (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001)) {
                 const modularCube = createModularGlassCube(140);
                 nodeGroup.add(modularCube);
             }
@@ -509,8 +543,8 @@ function updateScene() {
                     let p1 = rotateCoords(rawX[i], rawY[i], rawZ[i], angle, harmAxis);
                     let p2, p3;
                     if (mode === 'Axis X') { p2 = { x: p1.x, y: -p1.y, z: -p1.z }; p3 = { x: -p1.x, y: p1.y, z: p1.z }; } 
-                    else if (mode === 'Axis Y') { p2 = { x: -p1.x, y: p1.y, z: -p1.z }; p3 = { x: p1.x, y: -p1.y, z: p1.z }; } 
-                    else { p2 = { x: -p1.x, y: -p1.y, z: p1.z }; p3 = { x: p1.x, y: p1.y, z: -p1.z }; }
+                    else if (mode === 'Axis Y') { p2 = { x: -p1.x, y: p1.y, z: -p1.z }; p3 = { x: p1.x, y: p1.y, z: p1.z }; } 
+                    else { p2 = { x: -p1.x, y: -p1.y, z: p1.z }; p3 = { x: p1.x, y: p1.y, z: p1.z }; }
                     t2Points.push(new THREE.Vector3(p2.x, p2.y, p2.z));
                     a2Points.push(new THREE.Vector3(p3.x, p3.y, p3.z));
                 }
@@ -647,7 +681,7 @@ const harmAxisSelectEl = document.getElementById('harmAxisSelect');
 if (harmAxisSelectEl) harmAxisSelectEl.addEventListener('change', updateScene);
 
 const coresInputEl = document.getElementById('coresInput');
-if (coresInputEl) coresInputEl.endswith = coresInputEl.addEventListener('change', updateScene);
+if (coresInputEl) coresInputEl.addEventListener('change', updateScene);
 
 const loadModelBtn = document.getElementById('loadModelBtn');
 const modelFileInput = document.getElementById('modelFileInput');
