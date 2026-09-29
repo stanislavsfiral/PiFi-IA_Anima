@@ -90,20 +90,7 @@ function init3D() {
     }
 
     // Создаем и привязываем кнопку переключения модульных кубиков в шапке
-    const topBarControls = document.querySelector('.top-bar-right') || document.querySelector('header') || document.body;
     let toggleCubesBtn = document.getElementById('toggleModularCubesBtn');
-    if (!toggleCubesBtn) {
-        toggleCubesBtn = document.createElement('button');
-        toggleCubesBtn.id = 'toggleModularCubesBtn';
-        toggleCubesBtn.innerText = '🧊 Кубики: ВКЛ';
-        toggleCubesBtn.style.cssText = 'background: #1f4a38; color: #00ffaa; border: 1px solid #00ffaa; padding: 6px 12px; border-radius: 6px; cursor: pointer; margin-left: 10px; font-weight: bold;';
-        
-        // Попробуем вставить рядом с кнопкой лазера
-        if (toggleAnimBtn && toggleAnimBtn.parentNode) {
-            toggleAnimBtn.parentNode.insertBefore(toggleCubesBtn, toggleAnimBtn.nextSibling);
-        }
-    }
-
     if (toggleCubesBtn) {
         toggleCubesBtn.addEventListener('click', () => {
             isModularCubesEnabled = !isModularCubesEnabled;
@@ -366,6 +353,15 @@ function updateScene() {
 
         let nodePathsMap = {};
 
+        // Собираем множество ID узлов, у которых есть хотя бы одна связь (ребро)
+        let connectedNodeIds = new Set();
+        if (customModelSource.edges && Array.isArray(customModelSource.edges)) {
+            customModelSource.edges.forEach(edge => {
+                if (edge.from) connectedNodeIds.add(edge.from);
+                if (edge.to) connectedNodeIds.add(edge.to);
+            });
+        }
+
         customModelSource.nodes.forEach((node) => {
             const nodeGroup = new THREE.Group();
             nodeGroup.name = node.id; 
@@ -386,8 +382,9 @@ function updateScene() {
             let nodeScale = (node.params && node.params.scale !== undefined) ? node.params.scale : 1.0;
             let nodeStretch = (node.params && node.params.stretch !== undefined) ? node.params.stretch : 1.0;
             
-            // СОЗДАЕМ КУБ ДЛЯ УЗЛА, ЕСЛИ ВКЛЮЧЕН ФЛАГ В ИНТЕРФЕЙСЕ
-            if (isModularCubesEnabled && (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001)) {
+            // СОЗДАЕМ КУБ ТОЛЬКО ЕСЛИ ВКЛЮЧЕНЫ КУБИКИ И УЗЕЛ СФИРАЛИ СОСТЫКОВАН ПО РЁБРАМ (ИЛИ ВСЕГО 1 УЗЕЛ)
+            const isConnected = connectedNodeIds.has(node.id) || customModelSource.nodes.length === 1;
+            if (isModularCubesEnabled && isConnected && (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001)) {
                 const modularCube = createModularGlassCube(140);
                 nodeGroup.add(modularCube);
             }
