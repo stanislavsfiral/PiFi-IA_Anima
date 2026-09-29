@@ -364,16 +364,15 @@ function updateScene() {
 
         let nodePathsMap = {};
 
-        // Собираем множество ID узлов, у которых есть связи (ребра)
-        let connectedNodeIds = new Set();
-        if (customModelSource.edges && Array.isArray(customModelSource.edges) && customModelSource.edges.length > 0) {
+        // Вычисляем степень связности (degree) для каждого узла по массиву edges
+        let nodeDegrees = {};
+        customModelSource.nodes.forEach(n => nodeDegrees[n.id] = 0);
+
+        if (customModelSource.edges && Array.isArray(customModelSource.edges)) {
             customModelSource.edges.forEach(edge => {
-                if (edge.from) connectedNodeIds.add(edge.from);
-                if (edge.to) connectedNodeIds.add(edge.to);
+                if (edge.from && nodeDegrees[edge.from] !== undefined) nodeDegrees[edge.from]++;
+                if (edge.to && nodeDegrees[edge.to] !== undefined) nodeDegrees[edge.to]++;
             });
-        } else {
-            // Если рёбра не заданы в JSON явно, считаем все узлы соединенными в единую структуру
-            customModelSource.nodes.forEach(n => connectedNodeIds.add(n.id));
         }
 
         customModelSource.nodes.forEach((node) => {
@@ -396,8 +395,11 @@ function updateScene() {
             let nodeScale = (node.params && node.params.scale !== undefined) ? node.params.scale : 1.0;
             let nodeStretch = (node.params && node.params.stretch !== undefined) ? node.params.stretch : 1.0;
             
-            // СОЗДАЕМ КУБ ТОЛЬКО ДЛЯ СОЕДИНЕННЫХ / АКТИВНЫХ УЗЛОВ
-            const isConnected = connectedNodeIds.has(node.id) || customModelSource.nodes.length === 1;
+            // СТРОИМ КУБ ДЛЯ ВСЕХ УЗЛОВ, У КОТОРЫХ ЕСТЬ ХОТЯ БЫ ОДНА СВЯЗЬ (degree > 0), ИСКЛЮЧАЯ ТОЛЬКО ИЗОЛИРОВАННЫЕ (degree === 0)
+            let degree = nodeDegrees[node.id] || 0;
+            let hasEdgesDefined = customModelSource.edges && customModelSource.edges.length > 0;
+            const isConnected = hasEdgesDefined ? (degree > 0) : true;
+
             if (isModularCubesEnabled && isConnected && (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001)) {
                 const modularCube = createModularGlassCube(140);
                 nodeGroup.add(modularCube);
