@@ -185,7 +185,6 @@ function createModularGlassSphere(radius = 60) {
         side: THREE.DoubleSide,
         depthWrite: false
     });
-    // Без каркаса и линий сетки — только чистая стеклянная форма
     const sphereMesh = new THREE.Mesh(geometry, glassMaterial);
     return sphereMesh;
 }
@@ -388,7 +387,6 @@ function updateScene() {
             let hasEdgesDefined = customModelSource.edges && customModelSource.edges.length > 0;
             const isConnected = hasEdgesDefined ? (degree > 0) : true;
 
-            // СОЗДАЕМ ЧИСТУЮ СТЕКЛЯННУЮ СФЕРУ РАДИУСОМ 60 ПО ТОЧКАМ СТЫКОВКИ
             if (isModularCubesEnabled && isConnected && (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001)) {
                 const modularSphere = createModularGlassSphere(60);
                 modularSphere.position.set(px, py, pz);
@@ -687,7 +685,7 @@ if (harmAxisSelectEl) harmAxisSelectEl.addEventListener('change', updateScene);
 const coresInputEl = document.getElementById('coresInput');
 if (coresInputEl) coresInputEl.addEventListener('change', updateScene);
 
-ModelFileInput = document.getElementById('modelFileInput');
+const modelFileInput = document.getElementById('modelFileInput');
 const loadModelBtn = document.getElementById('loadModelBtn');
 if (loadModelBtn && modelFileInput) {
     loadModelBtn.addEventListener('click', () => modelFileInput.click());
