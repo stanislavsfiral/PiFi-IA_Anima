@@ -170,9 +170,9 @@ window.computeQuantumState = async function computeQuantumState(nodes, edges) {
 }
 
 // ========================================================
-// ЧИСТЫЕ СТЕКЛЯННЫЕ ШАРЫ (РАДИУС 60 ПО ГРАНИЦЕ СТЫКОВКИ СФИРАЛЕЙ)
+// ЧИСТЫЕ СТЕКЛЯННЫЕ ШАРЫ (УВЕЛИЧЕННЫЙ РАДИУС 85 ДЛЯ СТЫКОВКИ)
 // ========================================================
-function createModularGlassSphere(radius = 60) {
+function createModularGlassSphere(radius = 85) {
     const geometry = new THREE.SphereGeometry(radius, 32, 32);
     const glassMaterial = new THREE.MeshPhysicalMaterial({
         color: 0x00aaff,
@@ -388,7 +388,7 @@ function updateScene() {
             const isConnected = hasEdgesDefined ? (degree > 0) : true;
 
             if (isModularCubesEnabled && isConnected && (Math.abs(nodeStretch - 0.7778) < 0.001 || Math.abs(nodeStretch - 0.78) < 0.001)) {
-                const modularSphere = createModularGlassSphere(60);
+                const modularSphere = createModularGlassSphere(85);
                 modularSphere.position.set(px, py, pz);
                 modularSphere.rotation.set(0, 0, 0);
                 spiralGroup.add(modularSphere);
