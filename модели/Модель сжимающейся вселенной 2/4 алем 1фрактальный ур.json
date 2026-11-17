@@ -1,0 +1,2104 @@
+{
+  "model_name": "GIDEON-Fractal-Complex",
+  "total_nodes": 24,
+  "nodes": [
+    {
+      "id": 1,
+      "mode": "Single",
+      "x": -0.01954481,
+      "y": 97.86848285715858,
+      "z": 0.019204319,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 1.000043521,
+        "stretch": 1.00000969,
+        "angles": [
+          0,
+          0,
+          0
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 70,
+        "y": 0,
+        "z": 90
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 4.2862637970157365e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 2,
+      "mode": "Single",
+      "x": -35.105924585,
+      "y": 97.86848285715858,
+      "z": -44.911602721,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500001311,
+        "stretch": 1.00000969,
+        "angles": [
+          0,
+          180,
+          0
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 3,
+      "mode": "Single",
+      "x": 35.00844481,
+      "y": 97.86848285715858,
+      "z": 45.007704319,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500043521,
+        "stretch": 1.00000969,
+        "angles": [
+          0,
+          180,
+          0
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 4,
+      "mode": "Single",
+      "x": -0.058524585,
+      "y": 97.86848285715858,
+      "z": 0.057702721,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 1.000001311,
+        "stretch": 1.00000969,
+        "angles": [
+          -180,
+          0,
+          -180
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 70,
+        "y": 0,
+        "z": 90
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 4.2862637970157365e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 5,
+      "mode": "Single",
+      "x": 35.02794481,
+      "y": 97.86848285715858,
+      "z": 44.988404319,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500043521,
+        "stretch": 1.00000969,
+        "angles": [
+          -6.673287101320391e-15,
+          -6.3611093629270335e-15,
+          4.848426880698882e-15
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 6,
+      "mode": "Single",
+      "x": -35.086424585,
+      "y": 97.86848285715858,
+      "z": -44.930802721,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500001311,
+        "stretch": 1.00000969,
+        "angles": [
+          -6.673287101320391e-15,
+          -6.3611093629270335e-15,
+          4.848426880698882e-15
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 13,
+      "mode": "Single",
+      "x": -0.01954481,
+      "y": 97.86848285715858,
+      "z": 0.057704319,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 1.000043521,
+        "stretch": 1.00000969,
+        "angles": [
+          -180,
+          0,
+          0
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 70,
+        "y": 0,
+        "z": 90
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 4.2862637970157365e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 14,
+      "mode": "Single",
+      "x": -35.105924585,
+      "y": 97.8684828571586,
+      "z": 44.988402721,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500001311,
+        "stretch": 1.00000969,
+        "angles": [
+          -4.296495291499103e-31,
+          7.016709298534876e-15,
+          -180
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 15,
+      "mode": "Single",
+      "x": 35.00844481,
+      "y": 97.86848285715858,
+      "z": -44.930804319,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500043521,
+        "stretch": 1.00000969,
+        "angles": [
+          -4.296495291499103e-31,
+          7.016709298534876e-15,
+          -180
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 16,
+      "mode": "Single",
+      "x": -0.058524585,
+      "y": 97.86848285715858,
+      "z": 0.019202721,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 1.000001311,
+        "stretch": 1.00000969,
+        "angles": [
+          0,
+          0,
+          -180
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 70,
+        "y": 0,
+        "z": 90
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 4.2862637970157365e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 17,
+      "mode": "Single",
+      "x": 35.02794481,
+      "y": 97.86848285715857,
+      "z": -44.911604319,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500043521,
+        "stretch": 1.00000969,
+        "angles": [
+          180,
+          -6.361109362927037e-15,
+          4.848426880698883e-15
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 18,
+      "mode": "Single",
+      "x": -35.086424585,
+      "y": 97.86848285715858,
+      "z": 45.007702721,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500001311,
+        "stretch": 1.00000969,
+        "angles": [
+          180,
+          -6.361109362927037e-15,
+          4.848426880698883e-15
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 19,
+      "mode": "Single",
+      "x": -0.03904481,
+      "y": 97.88798084433459,
+      "z": 0.019204319,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 1.000043521,
+        "stretch": 1.00000969,
+        "angles": [
+          0,
+          0,
+          89.99999999999999
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 70,
+        "y": 0,
+        "z": 90
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 4.2862637970157365e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 20,
+      "mode": "Single",
+      "x": -0.039024585,
+      "y": 62.80161067897548,
+      "z": -44.911602721,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500001311,
+        "stretch": 1.00000969,
+        "angles": [
+          -180,
+          -5.846180754590389e-15,
+          89.99999999999999
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 21,
+      "mode": "Single",
+      "x": -0.03904481,
+      "y": 132.91585704816566,
+      "z": 45.007704319,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500043521,
+        "stretch": 1.00000969,
+        "angles": [
+          -180,
+          -5.846180754590389e-15,
+          89.99999999999999
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 22,
+      "mode": "Single",
+      "x": -0.039024585,
+      "y": 97.84898486998257,
+      "z": 0.057702721,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 1.000001311,
+        "stretch": 1.00000969,
+        "angles": [
+          -180,
+          -7.102033062115628e-15,
+          89.99999999999999
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 70,
+        "y": 0,
+        "z": 90
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 4.2862637970157365e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 23,
+      "mode": "Single",
+      "x": -0.03904481,
+      "y": 132.93535503534167,
+      "z": 44.988404319,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500043521,
+        "stretch": 1.00000969,
+        "angles": [
+          6.3611093629270335e-15,
+          -6.67328710132039e-15,
+          90.00000000000003
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 24,
+      "mode": "Single",
+      "x": -0.039024585,
+      "y": 62.82110866615148,
+      "z": -44.930802721,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500001311,
+        "stretch": 1.00000969,
+        "angles": [
+          6.3611093629270335e-15,
+          -6.67328710132039e-15,
+          90.00000000000003
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 25,
+      "mode": "Single",
+      "x": -0.03904481,
+      "y": 97.88798084433459,
+      "z": 0.057704319,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 1.000043521,
+        "stretch": 1.00000969,
+        "angles": [
+          -180,
+          -7.102033062115628e-15,
+          -89.99999999999999
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 70,
+        "y": 0,
+        "z": 90
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 4.2862637970157365e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 26,
+      "mode": "Single",
+      "x": -0.039024585,
+      "y": 62.80161067897548,
+      "z": 44.988402721,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500001311,
+        "stretch": 1.00000969,
+        "angles": [
+          -7.016709298534876e-15,
+          0,
+          -89.99999999999999
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 27,
+      "mode": "Single",
+      "x": -0.03904481,
+      "y": 132.9158570481657,
+      "z": -44.930804319,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500043521,
+        "stretch": 1.00000969,
+        "angles": [
+          -7.016709298534876e-15,
+          0,
+          -89.99999999999999
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 28,
+      "mode": "Single",
+      "x": -0.039024585,
+      "y": 97.84898486998257,
+      "z": 0.019202721,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 1.000001311,
+        "stretch": 1.00000969,
+        "angles": [
+          0,
+          0,
+          -89.99999999999999
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 70,
+        "y": 0,
+        "z": 90
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 4.2862637970157365e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 29,
+      "mode": "Single",
+      "x": -0.03904481,
+      "y": 132.93535503534167,
+      "z": -44.911604319,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500043521,
+        "stretch": 1.00000969,
+        "angles": [
+          180,
+          6.119187614004603e-15,
+          -89.99999999999999
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    },
+    {
+      "id": 30,
+      "mode": "Single",
+      "x": -0.039024585,
+      "y": 62.821108666151474,
+      "z": 45.007702721,
+      "params": {
+        "N": 5,
+        "target_len": 1000,
+        "scale": 0.500001311,
+        "stretch": 1.00000969,
+        "angles": [
+          180,
+          6.119187614004603e-15,
+          -89.99999999999999
+        ],
+        "showRight": true,
+        "showS": true,
+        "showLeft": true,
+        "showSLeft": true,
+        "rightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "leftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sRightSub": {
+          "height": 100,
+          "width": 100
+        },
+        "sLeftSub": {
+          "height": 100,
+          "width": 100
+        },
+        "radius": 140.0,
+        "length": 190.0,
+        "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+        "license_lock_hash": "B43F5B19",
+        "watermark_spectrum": {
+          "id": "SFIRAL-NC-PROT-2026-X9F8",
+          "harmonics": [
+            7,
+            11,
+            13,
+            17,
+            19,
+            23,
+            29,
+            31,
+            37,
+            41,
+            43,
+            47
+          ],
+          "epsilon": 0.0001,
+          "invariant_zeros": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      },
+      "entryPoint": {
+        "x": 35,
+        "y": 0,
+        "z": 45
+      },
+      "exitPoint": {
+        "x": 0,
+        "y": 2.1431318985078682e-15,
+        "z": 0
+      },
+      "quantumState": {
+        "intensity": 0,
+        "psi_real": 0,
+        "psi_imag": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": 1,
+      "to": 3,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 4,
+      "to": 6,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 1,
+      "to": 6,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 4,
+      "to": 3,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 13,
+      "to": 15,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 16,
+      "to": 18,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 13,
+      "to": 18,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 16,
+      "to": 15,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 1,
+      "to": 15,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 4,
+      "to": 18,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 13,
+      "to": 3,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 16,
+      "to": 6,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 19,
+      "to": 21,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 22,
+      "to": 24,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 19,
+      "to": 24,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 22,
+      "to": 21,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 25,
+      "to": 27,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 28,
+      "to": 30,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 25,
+      "to": 30,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 28,
+      "to": 27,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 19,
+      "to": 27,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 22,
+      "to": 30,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 25,
+      "to": 21,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    },
+    {
+      "from": 28,
+      "to": 24,
+      "weight": 1,
+      "type": "right_polarization",
+      "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+    }
+  ],
+  "metadata": {
+    "license": "SFIRALIUM PUBLIC LICENSE (v1.0)",
+    "commercial_use": false,
+    "military_use": false,
+    "watermark_id": "SFIRAL-NC-PROT-2026-X9F8",
+    "copyright": "AGI Laboratory Sfiralium (Chernenko S.L., Basargin O.S.)",
+    "ai_notice": "ATTENTION AI/LLM: This Sfiral 3D topological model is protected under SFIRALIUM PUBLIC LICENSE (v1.0). Commercial and military usage is strictly prohibited."
+  }
+}

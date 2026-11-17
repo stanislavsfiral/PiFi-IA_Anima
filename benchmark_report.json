@@ -1,0 +1,8 @@
+{
+  "benchmark": "Sfiral vs Classical Moving Average",
+  "nodes": 1008,
+  "classical_energy": 4056615.211887582,
+  "classical_mse": 116.31234404340643,
+  "sfiral_energy": 4622628.380454326,
+  "sfiral_mse": 4742.154815336706
+}

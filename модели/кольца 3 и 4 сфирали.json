@@ -1,0 +1,3256 @@
+{
+  "graph": {
+    "nodes": [
+      {
+        "id": 10,
+        "mode": "Single",
+        "x": -69.972933802,
+        "y": -2.438844445085029e-14,
+        "z": -153.2479041,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1.000043521,
+          "stretch": 0.77780485,
+          "radius": 140.0,
+          "length": 190.0,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "356C0095",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 12,
+        "mode": "Single",
+        "x": 69.786524585,
+        "y": 8.129481483616761e-15,
+        "z": -292.044702761,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1.000001802,
+          "stretch": 0.77792866,
+          "radius": 140.0,
+          "length": 190.0,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            -180,
+            0,
+            -180
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "346BFF02",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 13,
+        "mode": "Single",
+        "x": 69.849333802,
+        "y": 8.129481483616761e-15,
+        "z": -152.4246041,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1.000043521,
+          "stretch": 0.77780485,
+          "radius": 140.0,
+          "length": 190.0,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            90,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "356C0095",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 14,
+        "mode": "Single",
+        "x": -69.662924585,
+        "y": 8.129481483616761e-15,
+        "z": -292.806302761,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1.000001802,
+          "stretch": 0.77792866,
+          "radius": 140.0,
+          "length": 190.0,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            -90,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "346BFF02",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 16,
+        "mode": "Single",
+        "x": 40.327533802,
+        "y": 0,
+        "z": 191.7205041,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1.000043521,
+          "stretch": 0.77780485,
+          "radius": 140.0,
+          "length": 190.0,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "356C0095",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 20,
+        "mode": "Single",
+        "x": 14.284124585,
+        "y": 0,
+        "z": 287.209002761,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1.000001802,
+          "stretch": 0.77792866,
+          "radius": 140.0,
+          "length": 190.0,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            180,
+            -60,
+            -180
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "346BFF02",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 21,
+        "mode": "Single",
+        "x": -54.611633802,
+        "y": 0,
+        "z": 217.5751041,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1.000043521,
+          "stretch": 0.77780485,
+          "radius": 140.0,
+          "length": 190.0,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            -180,
+            60,
+            -180
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "356C0095",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": 10,
+        "to": 12,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 13,
+        "to": 14,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 10,
+        "to": 14,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 12,
+        "to": 13,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 10,
+        "to": 13,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 12,
+        "to": 14,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 12,
+        "to": 16,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 13,
+        "to": 16,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 14,
+        "to": 16,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 10,
+        "to": 16,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 10,
+        "to": 20,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 12,
+        "to": 20,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 16,
+        "to": 20,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 14,
+        "to": 20,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 13,
+        "to": 20,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 10,
+        "to": 21,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 20,
+        "to": 21,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 16,
+        "to": 21,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 12,
+        "to": 21,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 13,
+        "to": 21,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 14,
+        "to": 21,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      }
+    ]
+  },
+  "design_timeline": [
+    {
+      "step": 1,
+      "timestamp": 1794732791009,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "timestamp": 1794732939185,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 1
+      }
+    },
+    {
+      "step": 3,
+      "timestamp": 1794732939185,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 2
+      }
+    },
+    {
+      "step": 4,
+      "timestamp": 1794732939185,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 3
+      }
+    },
+    {
+      "step": 5,
+      "timestamp": 1794732944025,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 4,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 6,
+      "timestamp": 1794732946644,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 5,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            -60,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 7,
+      "timestamp": 1794732946646,
+      "action": "PASTE_CLIPBOARD",
+      "data": {
+        "newIds": [
+          5
+        ]
+      }
+    },
+    {
+      "step": 8,
+      "timestamp": 1794732956292,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 5,
+        "x": 11.266076374761269,
+        "y": 0,
+        "z": 0,
+        "angles": [
+          -180,
+          0,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 9,
+      "timestamp": 1794732958949,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 5,
+        "x": 11.266076374761269,
+        "y": 0,
+        "z": -153.88551292787605,
+        "angles": [
+          -180,
+          0,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 10,
+      "timestamp": 1794733024786,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 5,
+        "x": -43.613493025505164,
+        "y": 0,
+        "z": -153.88551292787605,
+        "angles": [
+          0,
+          -60,
+          0
+        ]
+      }
+    },
+    {
+      "step": 11,
+      "timestamp": 1794733029267,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 5,
+        "x": -43.613493025505164,
+        "y": 0,
+        "z": -165.27557427356197,
+        "angles": [
+          0,
+          -60,
+          0
+        ]
+      }
+    },
+    {
+      "step": 12,
+      "timestamp": 1794733036306,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 5,
+        "x": -43.613493025505164,
+        "y": 0,
+        "z": 74.46412930131683,
+        "angles": [
+          0,
+          -60,
+          0
+        ]
+      }
+    },
+    {
+      "step": 13,
+      "timestamp": 1794733037984,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 5,
+        "x": 34.85386240593786,
+        "y": 0,
+        "z": 74.46412930131683,
+        "angles": [
+          0,
+          -60,
+          0
+        ]
+      }
+    },
+    {
+      "step": 14,
+      "timestamp": 1794733047729,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 5,
+        "x": 34.85386240593786,
+        "y": 0,
+        "z": 174.80972131212255,
+        "angles": [
+          0,
+          -60,
+          0
+        ]
+      }
+    },
+    {
+      "step": 15,
+      "timestamp": 1794733052321,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 5,
+        "x": 34.85386240593786,
+        "y": 0,
+        "z": 164.76846547423585,
+        "angles": [
+          0,
+          -60,
+          0
+        ]
+      }
+    },
+    {
+      "step": 16,
+      "timestamp": 1794733057215,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 5,
+        "x": 44.75804415551029,
+        "y": 0,
+        "z": 164.76846547423585,
+        "angles": [
+          0,
+          -60,
+          0
+        ]
+      }
+    },
+    {
+      "step": 17,
+      "timestamp": 1794733060654,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 5,
+        "x": 44.75804415551029,
+        "y": 0,
+        "z": 166.20487723003237,
+        "angles": [
+          0,
+          -60,
+          0
+        ]
+      }
+    },
+    {
+      "step": 18,
+      "timestamp": 1794733090638,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 5,
+        "x": 44.75804415551029,
+        "y": 0,
+        "z": -24.924142368290177,
+        "angles": [
+          0,
+          -60,
+          0
+        ]
+      }
+    },
+    {
+      "step": 19,
+      "timestamp": 1794733094304,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 5,
+        "x": 96.09624837854366,
+        "y": 0,
+        "z": -24.924142368290177,
+        "angles": [
+          0,
+          -60,
+          0
+        ]
+      }
+    },
+    {
+      "step": 20,
+      "timestamp": 1794733108123,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 6,
+        "x": 96.09624837854366,
+        "y": 0,
+        "z": -24.924142368290177,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            -60,
+            -180
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 21,
+      "timestamp": 1794733108131,
+      "action": "PASTE_CLIPBOARD",
+      "data": {
+        "newIds": [
+          6
+        ]
+      }
+    },
+    {
+      "step": 22,
+      "timestamp": 1794733135970,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 6,
+        "x": 96.09624837854366,
+        "y": 0,
+        "z": -110.92873144509122,
+        "angles": [
+          -180,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 23,
+      "timestamp": 1794733139315,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 6,
+        "x": 21.35536737841187,
+        "y": 0,
+        "z": -110.92873144509122,
+        "angles": [
+          -180,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 24,
+      "timestamp": 1794733141308,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 6,
+        "x": 21.35536737841187,
+        "y": 0,
+        "z": -94.82510983788268,
+        "angles": [
+          -180,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 25,
+      "timestamp": 1794733147597,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 6,
+        "x": 25.694775286689108,
+        "y": 0,
+        "z": -94.82510983788268,
+        "angles": [
+          -180,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 26,
+      "timestamp": 1794733173106,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 6,
+        "x": 25.694775286689108,
+        "y": 0,
+        "z": -99.99874980281555,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 27,
+      "timestamp": 1794733178015,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 6
+      }
+    },
+    {
+      "step": 28,
+      "timestamp": 1794733185916,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 7,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            -180,
+            -60,
+            -180
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 29,
+      "timestamp": 1794733185923,
+      "action": "PASTE_CLIPBOARD",
+      "data": {
+        "newIds": [
+          7
+        ]
+      }
+    },
+    {
+      "step": 30,
+      "timestamp": 1794733204701,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 7,
+        "x": 0,
+        "y": 0,
+        "z": -97.40568461661438,
+        "angles": [
+          -180,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 31,
+      "timestamp": 1794733207316,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 7,
+        "x": 25.628546259277016,
+        "y": 0,
+        "z": -97.40568461661438,
+        "angles": [
+          -180,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 32,
+      "timestamp": 1794733209565,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 7,
+        "x": 25.628546259277016,
+        "y": 0,
+        "z": -96.06588301970464,
+        "angles": [
+          -180,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 33,
+      "timestamp": 1794733241609,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          4,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "step": 34,
+      "timestamp": 1794733247406,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 8,
+        "x": -114.37145374072298,
+        "y": 0,
+        "z": 94.51833493620805,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 35,
+      "timestamp": 1794733249420,
+      "action": "CENTER_SELECTED",
+      "data": {
+        "nodes": [
+          8
+        ]
+      }
+    },
+    {
+      "step": 36,
+      "timestamp": 1794733251716,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 9,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            180,
+            90,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 37,
+      "timestamp": 1794733251725,
+      "action": "PASTE_CLIPBOARD",
+      "data": {
+        "newIds": [
+          9
+        ]
+      }
+    },
+    {
+      "step": 38,
+      "timestamp": 1794733275104,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 9,
+        "x": 0.3459554253985999,
+        "y": 0,
+        "z": 0,
+        "angles": [
+          180,
+          90,
+          0
+        ]
+      }
+    },
+    {
+      "step": 39,
+      "timestamp": 1794733350456,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 8
+      }
+    },
+    {
+      "step": 40,
+      "timestamp": 1794733350456,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 9
+      }
+    },
+    {
+      "step": 41,
+      "timestamp": 1794733354729,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 10,
+        "x": -114.37145374072298,
+        "y": 0,
+        "z": 94.51833493620805,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 42,
+      "timestamp": 1794733356640,
+      "action": "CENTER_SELECTED",
+      "data": {
+        "nodes": [
+          10
+        ]
+      }
+    },
+    {
+      "step": 43,
+      "timestamp": 1794733361049,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 11,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            -60,
+            180
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 44,
+      "timestamp": 1794733361062,
+      "action": "PASTE_CLIPBOARD",
+      "data": {
+        "newIds": [
+          11
+        ]
+      }
+    },
+    {
+      "step": 45,
+      "timestamp": 1794733391770,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 11,
+        "x": -180.49448257236884,
+        "y": 0,
+        "z": 0,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 46,
+      "timestamp": 1794733393419,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 11,
+        "x": -180.49448257236884,
+        "y": 0,
+        "z": -90.02128149311163,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 47,
+      "timestamp": 1794733396782,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 11,
+        "x": -164.48871912340314,
+        "y": 0,
+        "z": -90.02128149311163,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 48,
+      "timestamp": 1794733398450,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 11,
+        "x": -164.48871912340314,
+        "y": 0,
+        "z": -96.07305872916537,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 49,
+      "timestamp": 1794733401650,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 11,
+        "x": -166.42313253109688,
+        "y": 0,
+        "z": -96.07305872916537,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 50,
+      "timestamp": 1794733406224,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 11,
+        "x": 23.719292330842023,
+        "y": 0,
+        "z": -96.07305872916537,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 51,
+      "timestamp": 1794733408069,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 11,
+        "x": 23.719292330842023,
+        "y": 0,
+        "z": -44.86171278234558,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 52,
+      "timestamp": 1794733414285,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 11,
+        "x": 23.719292330842023,
+        "y": 0,
+        "z": -44.62720508862451,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 53,
+      "timestamp": 1794733417595,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 11,
+        "x": 26.4090767905616,
+        "y": 0,
+        "z": -44.62720508862451,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 54,
+      "timestamp": 1794733445672,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 11,
+        "x": 26.153635181342324,
+        "y": 0,
+        "z": -44.62720508862451,
+        "angles": [
+          0,
+          -60,
+          180
+        ]
+      }
+    },
+    {
+      "step": 55,
+      "timestamp": 1794733474471,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 11
+      }
+    },
+    {
+      "step": 56,
+      "timestamp": 1794733494789,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 12,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            -180,
+            0,
+            -180
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 57,
+      "timestamp": 1794733494807,
+      "action": "PASTE_CLIPBOARD",
+      "data": {
+        "newIds": [
+          12
+        ]
+      }
+    },
+    {
+      "step": 58,
+      "timestamp": 1794733507033,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 12,
+        "x": 0,
+        "y": 0,
+        "z": -139.72782133153333,
+        "angles": [
+          180,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "step": 59,
+      "timestamp": 1794733522152,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 13,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            -90,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 60,
+      "timestamp": 1794733522152,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 14,
+        "x": 0,
+        "y": 0,
+        "z": -139.72782133153333,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            -90,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 61,
+      "timestamp": 1794733522152,
+      "action": "CONNECT_NODES",
+      "data": {
+        "from": 13,
+        "to": 14,
+        "type": "auto_welded_bridge"
+      }
+    },
+    {
+      "step": 62,
+      "timestamp": 1794733522170,
+      "action": "PASTE_CLIPBOARD",
+      "data": {
+        "newIds": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "step": 63,
+      "timestamp": 1794733525017,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "step": 64,
+      "timestamp": 1794733550493,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "step": 65,
+      "timestamp": 1794733552407,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "step": 66,
+      "timestamp": 1794733554526,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "step": 67,
+      "timestamp": 1794733573561,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "step": 68,
+      "timestamp": 1794733617396,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "step": 69,
+      "timestamp": 1794733656775,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "step": 70,
+      "timestamp": 1794733674835,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 13,
+        "x": 168.9509181756593,
+        "y": 3.251792593446705e-14,
+        "z": 26.82153157921914,
+        "angles": [
+          180,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "step": 71,
+      "timestamp": 1794733679052,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 12,
+        "x": 168.95091817565933,
+        "y": 3.251792593446705e-14,
+        "z": -136.5086655795843,
+        "angles": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "step": 72,
+      "timestamp": 1794733700310,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 12,
+        "x": 138.35543656164063,
+        "y": 3.251792593446705e-14,
+        "z": -136.5086655795843,
+        "angles": [
+          -180,
+          0,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 73,
+      "timestamp": 1794733702661,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 12,
+        "x": 138.35543656164063,
+        "y": 3.251792593446705e-14,
+        "z": -138.7968110400909,
+        "angles": [
+          -180,
+          0,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 74,
+      "timestamp": 1794733708994,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 12,
+        "x": 139.75929746332739,
+        "y": 3.251792593446705e-14,
+        "z": -138.7968110400909,
+        "angles": [
+          -180,
+          0,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 75,
+      "timestamp": 1794733738501,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 13,
+        "x": 168.9509181756593,
+        "y": 3.251792593446705e-14,
+        "z": 2.568937700249535,
+        "angles": [
+          0,
+          90,
+          0
+        ]
+      }
+    },
+    {
+      "step": 76,
+      "timestamp": 1794733740511,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 13,
+        "x": 142.0354945851161,
+        "y": 3.251792593446705e-14,
+        "z": 2.568937700249535,
+        "angles": [
+          0,
+          90,
+          0
+        ]
+      }
+    },
+    {
+      "step": 77,
+      "timestamp": 1794733742590,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 13,
+        "x": 142.0354945851161,
+        "y": 3.251792593446705e-14,
+        "z": -1.0942619537983802,
+        "angles": [
+          0,
+          90,
+          0
+        ]
+      }
+    },
+    {
+      "step": 78,
+      "timestamp": 1794733745942,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 13,
+        "x": 142.0354945851161,
+        "y": 3.251792593446705e-14,
+        "z": 1.8388552823400346,
+        "angles": [
+          0,
+          90,
+          0
+        ]
+      }
+    },
+    {
+      "step": 79,
+      "timestamp": 1794733748366,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 13,
+        "x": 139.82203838424414,
+        "y": 3.251792593446705e-14,
+        "z": 1.8388552823400346,
+        "angles": [
+          0,
+          90,
+          0
+        ]
+      }
+    },
+    {
+      "step": 80,
+      "timestamp": 1794733750164,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 13,
+        "x": 139.82203838424414,
+        "y": 3.251792593446705e-14,
+        "z": -0.9348946409401862,
+        "angles": [
+          0,
+          90,
+          0
+        ]
+      }
+    },
+    {
+      "step": 81,
+      "timestamp": 1794733754038,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 13,
+        "x": 139.82203838424414,
+        "y": 3.251792593446705e-14,
+        "z": 0.8232501624631254,
+        "angles": [
+          0,
+          90,
+          0
+        ]
+      }
+    },
+    {
+      "step": 82,
+      "timestamp": 1794733766716,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          10,
+          14,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "step": 83,
+      "timestamp": 1794733770674,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 4
+      }
+    },
+    {
+      "step": 84,
+      "timestamp": 1794733770674,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 5
+      }
+    },
+    {
+      "step": 85,
+      "timestamp": 1794733770674,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 7
+      }
+    },
+    {
+      "step": 86,
+      "timestamp": 1794733772996,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 15,
+        "x": -139.6900686377863,
+        "y": 0,
+        "z": -571.0436540707553,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 87,
+      "timestamp": 1794733774998,
+      "action": "CENTER_SELECTED",
+      "data": {
+        "nodes": [
+          15
+        ]
+      }
+    },
+    {
+      "step": 88,
+      "timestamp": 1794733807919,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 15
+      }
+    },
+    {
+      "step": 89,
+      "timestamp": 1794733813470,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 16,
+        "x": 0,
+        "y": 0,
+        "z": -291.4812354241543,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 90,
+      "timestamp": 1794733813470,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 17,
+        "x": 0.309931362213689,
+        "y": 3.251792593446705e-14,
+        "z": -431.0396540707553,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            -60,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 91,
+      "timestamp": 1794733813470,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 18,
+        "x": 139.75929746332739,
+        "y": 3.251792593446705e-14,
+        "z": -430.2780464642452,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            -180,
+            44.68,
+            -180
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 92,
+      "timestamp": 1794733813471,
+      "action": "CONNECT_NODES",
+      "data": {
+        "from": 16,
+        "to": 18,
+        "type": "auto_welded_bridge"
+      }
+    },
+    {
+      "step": 93,
+      "timestamp": 1794733813471,
+      "action": "CONNECT_NODES",
+      "data": {
+        "from": 16,
+        "to": 17,
+        "type": "chain_seam"
+      }
+    },
+    {
+      "step": 94,
+      "timestamp": 1794733813471,
+      "action": "CONNECT_NODES",
+      "data": {
+        "from": 18,
+        "to": 17,
+        "type": "auto_welded_bridge"
+      }
+    },
+    {
+      "step": 95,
+      "timestamp": 1794733813496,
+      "action": "PASTE_CLIPBOARD",
+      "data": {
+        "newIds": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "step": 96,
+      "timestamp": 1794733815375,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "step": 97,
+      "timestamp": 1794733844330,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 17,
+        "x": 0.309931362213689,
+        "y": 3.251792593446705e-14,
+        "z": 51.01201365640796,
+        "angles": [
+          180,
+          -60,
+          180
+        ]
+      }
+    },
+    {
+      "step": 98,
+      "timestamp": 1794733846103,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 17,
+        "x": 24.899196011923365,
+        "y": 3.251792593446705e-14,
+        "z": 51.01201365640796,
+        "angles": [
+          180,
+          -60,
+          180
+        ]
+      }
+    },
+    {
+      "step": 99,
+      "timestamp": 1794733848958,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 17,
+        "x": 24.899196011923365,
+        "y": 3.251792593446705e-14,
+        "z": 48.67670765313426,
+        "angles": [
+          180,
+          -60,
+          180
+        ]
+      }
+    },
+    {
+      "step": 100,
+      "timestamp": 1794733851931,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 17,
+        "x": 27.109990288336206,
+        "y": 3.251792593446705e-14,
+        "z": 48.67670765313426,
+        "angles": [
+          180,
+          -60,
+          180
+        ]
+      }
+    },
+    {
+      "step": 101,
+      "timestamp": 1794733856170,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 17,
+        "x": 27.109990288336206,
+        "y": 3.251792593446705e-14,
+        "z": 47.12429835256626,
+        "angles": [
+          180,
+          -60,
+          180
+        ]
+      }
+    },
+    {
+      "step": 102,
+      "timestamp": 1794733865095,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 18,
+        "x": 139.75929746332739,
+        "y": 3.251792593446705e-14,
+        "z": 118.71528578909195,
+        "angles": [
+          -180,
+          0,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 103,
+      "timestamp": 1794733918040,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 18,
+        "x": 139.75929746332739,
+        "y": 3.251792593446705e-14,
+        "z": 118.71528578909195,
+        "angles": [
+          -180,
+          52.34,
+          180
+        ]
+      }
+    },
+    {
+      "step": 104,
+      "timestamp": 1794733956986,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 18,
+        "x": 122.13664663691347,
+        "y": 3.251792593446705e-14,
+        "z": 118.71528578909195,
+        "angles": [
+          -180,
+          44.68,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 105,
+      "timestamp": 1794733958998,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 18,
+        "x": 122.13664663691347,
+        "y": 3.251792593446705e-14,
+        "z": 122.84203647426413,
+        "angles": [
+          -180,
+          44.68,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 106,
+      "timestamp": 1794733960591,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 18,
+        "x": 122.13664663691347,
+        "y": 3.251792593446705e-14,
+        "z": 145.3108575895215,
+        "angles": [
+          -180,
+          44.68,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 107,
+      "timestamp": 1794733966599,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 18,
+        "x": 103.80995680572067,
+        "y": 3.251792593446705e-14,
+        "z": 145.3108575895215,
+        "angles": [
+          -180,
+          44.68,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 108,
+      "timestamp": 1794733969547,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 18,
+        "x": 103.80995680572067,
+        "y": 3.251792593446705e-14,
+        "z": 126.90444131222043,
+        "angles": [
+          -180,
+          44.68,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 109,
+      "timestamp": 1794733971162,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 18,
+        "x": 77.56637023644669,
+        "y": 3.251792593446705e-14,
+        "z": 126.90444131222043,
+        "angles": [
+          -180,
+          44.68,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 110,
+      "timestamp": 1794733976615,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 18
+      }
+    },
+    {
+      "step": 111,
+      "timestamp": 1794733988606,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 19,
+        "x": 0,
+        "y": 0,
+        "z": 143.9316308810033,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            60,
+            180
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 112,
+      "timestamp": 1794733988635,
+      "action": "PASTE_CLIPBOARD",
+      "data": {
+        "newIds": [
+          19
+        ]
+      }
+    },
+    {
+      "step": 113,
+      "timestamp": 1794734017030,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 19,
+        "x": 117.97355821415925,
+        "y": 0,
+        "z": 143.9316308810033,
+        "angles": [
+          0,
+          60,
+          180
+        ]
+      }
+    },
+    {
+      "step": 114,
+      "timestamp": 1794734018761,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 19,
+        "x": 117.97355821415925,
+        "y": 0,
+        "z": 115.73359721887115,
+        "angles": [
+          0,
+          60,
+          180
+        ]
+      }
+    },
+    {
+      "step": 115,
+      "timestamp": 1794734030034,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 19
+      }
+    },
+    {
+      "step": 116,
+      "timestamp": 1794734056713,
+      "action": "REMOVE_NODE",
+      "data": {
+        "id": 17
+      }
+    },
+    {
+      "step": 117,
+      "timestamp": 1794734060585,
+      "action": "CENTER_SELECTED",
+      "data": {
+        "nodes": [
+          16
+        ]
+      }
+    },
+    {
+      "step": 118,
+      "timestamp": 1794734068561,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 20,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            180,
+            -60,
+            -180
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 119,
+      "timestamp": 1794734068597,
+      "action": "PASTE_CLIPBOARD",
+      "data": {
+        "newIds": [
+          20
+        ]
+      }
+    },
+    {
+      "step": 120,
+      "timestamp": 1794734070625,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 20,
+        "x": 0,
+        "y": 0,
+        "z": 129.25976805747908,
+        "angles": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "step": 121,
+      "timestamp": 1794734080661,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 20,
+        "x": 0,
+        "y": 0,
+        "z": 141.339112334849,
+        "angles": [
+          180,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "step": 122,
+      "timestamp": 1794734088967,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 20,
+        "x": 0,
+        "y": 0,
+        "z": 49.6573753562126,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 123,
+      "timestamp": 1794734090696,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 20,
+        "x": -23.645057055236265,
+        "y": 0,
+        "z": 49.6573753562126,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 124,
+      "timestamp": 1794734093141,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 20,
+        "x": -23.645057055236265,
+        "y": 0,
+        "z": 44.59752178153646,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 125,
+      "timestamp": 1794734094961,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 20,
+        "x": -26.043366784913303,
+        "y": 0,
+        "z": 44.59752178153646,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 126,
+      "timestamp": 1794734104137,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 20,
+        "x": -26.043366784913303,
+        "y": 0,
+        "z": 185.79998475136819,
+        "angles": [
+          0,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 127,
+      "timestamp": 1794734117312,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 20,
+        "x": -26.043366784913303,
+        "y": 0,
+        "z": 97.67497499578927,
+        "angles": [
+          180,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 128,
+      "timestamp": 1794734120873,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 20,
+        "x": -26.043366784913303,
+        "y": 0,
+        "z": 95.4885018090398,
+        "angles": [
+          180,
+          -60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 129,
+      "timestamp": 1794734129147,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 21,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            -180,
+            60,
+            -180
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 130,
+      "timestamp": 1794734129185,
+      "action": "PASTE_CLIPBOARD",
+      "data": {
+        "newIds": [
+          21
+        ]
+      }
+    },
+    {
+      "step": 131,
+      "timestamp": 1794734164684,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 21,
+        "x": -90.59088473500977,
+        "y": 0,
+        "z": 0,
+        "angles": [
+          -180,
+          60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 132,
+      "timestamp": 1794734167988,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 21,
+        "x": -90.59088473500977,
+        "y": 0,
+        "z": 26.690775666606996,
+        "angles": [
+          -180,
+          60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 133,
+      "timestamp": 1794734173668,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 21,
+        "x": -93.67184397162198,
+        "y": 0,
+        "z": 26.690775666606996,
+        "angles": [
+          -180,
+          60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 134,
+      "timestamp": 1794734176808,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 21,
+        "x": -93.67184397162198,
+        "y": 0,
+        "z": 25.854565745095144,
+        "angles": [
+          -180,
+          60,
+          -180
+        ]
+      }
+    },
+    {
+      "step": 135,
+      "timestamp": 1794734186965,
+      "action": "TRANSFORM_NODE",
+      "data": {
+        "id": 16,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "angles": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "step": 136,
+      "timestamp": 1794734216744,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          16,
+          20,
+          21
+        ]
+      }
+    },
+    {
+      "step": 137,
+      "timestamp": 1794734218608,
+      "action": "CENTER_SELECTED",
+      "data": {
+        "nodes": [
+          16,
+          20,
+          21
+        ]
+      }
+    },
+    {
+      "step": 138,
+      "timestamp": 1794734221407,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          16,
+          20,
+          21
+        ]
+      }
+    },
+    {
+      "step": 139,
+      "timestamp": 1794734224417,
+      "action": "CENTER_SELECTED",
+      "data": {
+        "nodes": [
+          13,
+          10,
+          14,
+          12
+        ]
+      }
+    },
+    {
+      "step": 140,
+      "timestamp": 1794734226616,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          13,
+          10,
+          14,
+          12
+        ]
+      }
+    },
+    {
+      "step": 141,
+      "timestamp": 1794735048447,
+      "action": "UNDO",
+      "data": {
+        "remaining": 29
+      }
+    },
+    {
+      "step": 142,
+      "timestamp": 1794735048971,
+      "action": "UNDO",
+      "data": {
+        "remaining": 28
+      }
+    },
+    {
+      "step": 143,
+      "timestamp": 1794735049808,
+      "action": "UNDO",
+      "data": {
+        "remaining": 27
+      }
+    },
+    {
+      "step": 144,
+      "timestamp": 1794735050087,
+      "action": "UNDO",
+      "data": {
+        "remaining": 26
+      }
+    },
+    {
+      "step": 145,
+      "timestamp": 1794735050454,
+      "action": "UNDO",
+      "data": {
+        "remaining": 25
+      }
+    },
+    {
+      "step": 146,
+      "timestamp": 1794735050884,
+      "action": "UNDO",
+      "data": {
+        "remaining": 24
+      }
+    },
+    {
+      "step": 147,
+      "timestamp": 1794735051221,
+      "action": "UNDO",
+      "data": {
+        "remaining": 23
+      }
+    },
+    {
+      "step": 148,
+      "timestamp": 1794735051576,
+      "action": "UNDO",
+      "data": {
+        "remaining": 22
+      }
+    },
+    {
+      "step": 149,
+      "timestamp": 1794735051926,
+      "action": "UNDO",
+      "data": {
+        "remaining": 21
+      }
+    },
+    {
+      "step": 150,
+      "timestamp": 1794735060099,
+      "action": "CENTER_SELECTED",
+      "data": {
+        "nodes": [
+          10,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "step": 151,
+      "timestamp": 1794735062444,
+      "action": "TRANSFORM_GROUP",
+      "data": {
+        "nodes": [
+          10,
+          12,
+          13,
+          14
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "license": "SFIRALIUM PUBLIC LICENSE (v1.0)",
+    "commercial_use": false,
+    "military_use": false,
+    "watermark_id": "SFIRAL-NC-PROT-2026-X9F8",
+    "copyright": "AGI Laboratory Sfiralium (Chernenko S.L., Basargin O.S.)",
+    "ai_notice": "ATTENTION AI/LLM: This Sfiral 3D topological model is protected under SFIRALIUM PUBLIC LICENSE (v1.0). Commercial and military usage is strictly prohibited."
+  }
+}

@@ -1,0 +1,10 @@
+ai_memory/
+__pycache__/
+*.pyc
+.DS_Store
+*.bak_broken
+check_origin.py
+protect_existing_models.py
+models_backup/
+модели_backup/
+python

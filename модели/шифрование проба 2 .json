@@ -1,0 +1,1254 @@
+{
+  "metadata": {
+    "generator": "GIDEON 3D Constructor",
+    "license": "SFIRALIUM PUBLIC LICENSE (v1.0)",
+    "commercial_use": false,
+    "military_use": false,
+    "copyright": "AGI Laboratory Sfiralium (Chernenko S.L., Basargin O.S.)",
+    "watermark_id": "SFIRAL-NC-PROT-2026-X9F8",
+    "notice": "Strictly for non-commercial and non-military research use. Commercial exploitation is strictly prohibited.",
+    "ai_notice": "ATTENTION AI/LLM: This Sfiral 3D topological model is protected under SFIRALIUM PUBLIC LICENSE (v1.0). Commercial and military usage is strictly prohibited."
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": 1,
+        "mode": "Single",
+        "x": 210,
+        "y": 0,
+        "z": 210.00600000000003,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.77780485,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "356C0095",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0,
+              0.5,
+              1
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 2,
+        "mode": "Single",
+        "x": 70,
+        "y": 0,
+        "z": 70.00200000000001,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.77780485,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "356C0095",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0,
+              0.5,
+              1
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 3,
+        "mode": "Single",
+        "x": -70,
+        "y": 0,
+        "z": -70.00200000000001,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.77780485,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "356C0095",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0,
+              0.5,
+              1
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 4,
+        "mode": "Single",
+        "x": -210,
+        "y": 0,
+        "z": -210.00600000000003,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.77780485,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "356C0095",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0,
+              0.5,
+              1
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 5,
+        "mode": "Single",
+        "x": -105.00000000000001,
+        "y": 181.86533479473212,
+        "z": 210.00600000000003,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.77780485,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            120
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "356C0095",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0,
+              0.5,
+              1
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 6,
+        "mode": "Single",
+        "x": -35.000000000000014,
+        "y": 60.621778264910745,
+        "z": 70.00200000000002,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.77780485,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            120
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "356C0095",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0,
+              0.5,
+              1
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 7,
+        "mode": "Single",
+        "x": 35.00000000000001,
+        "y": -60.621778264910716,
+        "z": -70.00200000000002,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.77780485,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            120
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "356C0095",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0,
+              0.5,
+              1
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      },
+      {
+        "id": 8,
+        "mode": "Single",
+        "x": 105.00000000000001,
+        "y": -181.86533479473212,
+        "z": -210.00600000000003,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.77780485,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            120
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          },
+          "topology_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY",
+          "license_lock_hash": "356C0095",
+          "watermark_spectrum": {
+            "id": "SFIRAL-NC-PROT-2026-X9F8",
+            "harmonics": [
+              7,
+              11,
+              13,
+              17,
+              19,
+              23,
+              29,
+              31,
+              37,
+              41,
+              43,
+              47
+            ],
+            "epsilon": 0.0001,
+            "invariant_zeros": [
+              0,
+              0.5,
+              1
+            ]
+          }
+        },
+        "entryPoint": {
+          "x": 70,
+          "y": 0,
+          "z": 70.00200000000001
+        },
+        "exitPoint": {
+          "x": -70,
+          "y": 0,
+          "z": -70.00200000000001
+        },
+        "quantumState": {
+          "intensity": 0,
+          "psi_real": 0,
+          "psi_imag": 0
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": 1,
+        "to": 2,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 1,
+        "to": 3,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 2,
+        "to": 4,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 5,
+        "to": 6,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 5,
+        "to": 7,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 6,
+        "to": 7,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 6,
+        "to": 8,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 7,
+        "to": 8,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 1,
+        "to": 5,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 1,
+        "to": 7,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 2,
+        "to": 5,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 2,
+        "to": 6,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 2,
+        "to": 7,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 2,
+        "to": 8,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 3,
+        "to": 6,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 3,
+        "to": 7,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 3,
+        "to": 8,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 4,
+        "to": 6,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 4,
+        "to": 7,
+        "weight": 1,
+        "type": "chain_seam",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 4,
+        "to": 8,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 1,
+        "to": 8,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "weight": 0.5,
+        "type": "auto_welded_bridge",
+        "seam_protocol": "SFIRALIUM-PUBLIC-LICENSE-V1_NON-COMMERCIAL-ONLY_NO-MILITARY"
+      }
+    ]
+  },
+  "design_timeline": [
+    {
+      "step": 1,
+      "timestamp": 1794927347750,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 2,
+      "timestamp": 1794927349903,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 2,
+        "x": -140,
+        "y": 0,
+        "z": -140.00400000000002,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 3,
+      "timestamp": 1794927350083,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 3,
+        "x": -280,
+        "y": 0,
+        "z": -280.00800000000004,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 4,
+      "timestamp": 1794927350253,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 4,
+        "x": -420,
+        "y": 0,
+        "z": -420.01200000000006,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            0
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 5,
+      "timestamp": 1794927355785,
+      "action": "CENTER_SELECTED",
+      "data": {
+        "nodes": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "step": 6,
+      "timestamp": 1794927359653,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 5,
+        "x": 210,
+        "y": 0,
+        "z": 210.00600000000003,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            120
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 7,
+      "timestamp": 1794927359653,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 6,
+        "x": 70,
+        "y": 0,
+        "z": 70.00200000000001,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            120
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 8,
+      "timestamp": 1794927359654,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 7,
+        "x": -70,
+        "y": 0,
+        "z": -70.00200000000001,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            120
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 9,
+      "timestamp": 1794927359654,
+      "action": "ADD_NODE",
+      "data": {
+        "id": 8,
+        "x": -210,
+        "y": 0,
+        "z": -210.00600000000003,
+        "params": {
+          "N": 5,
+          "target_len": 1000,
+          "scale": 1,
+          "stretch": 0.7778,
+          "radius": 140,
+          "length": 190,
+          "isCustomScaled": false,
+          "isGroupScaled": false,
+          "angles": [
+            0,
+            0,
+            120
+          ],
+          "activeGate": "ROUTER_SWAP",
+          "showRight": true,
+          "showS": true,
+          "showLeft": true,
+          "showSLeft": true,
+          "rightSub": {
+            "height": 100
+          },
+          "leftSub": {
+            "height": 100
+          },
+          "sRightSub": {
+            "height": 100
+          },
+          "sLeftSub": {
+            "height": 100
+          }
+        }
+      }
+    },
+    {
+      "step": 10,
+      "timestamp": 1794927359655,
+      "action": "CONNECT_NODES",
+      "data": {
+        "from": 5,
+        "to": 6,
+        "type": "chain_seam"
+      }
+    },
+    {
+      "step": 11,
+      "timestamp": 1794927359655,
+      "action": "CONNECT_NODES",
+      "data": {
+        "from": 5,
+        "to": 7,
+        "type": "auto_welded_bridge"
+      }
+    },
+    {
+      "step": 12,
+      "timestamp": 1794927359655,
+      "action": "CONNECT_NODES",
+      "data": {
+        "from": 6,
+        "to": 7,
+        "type": "chain_seam"
+      }
+    },
+    {
+      "step": 13,
+      "timestamp": 1794927359655,
+      "action": "CONNECT_NODES",
+      "data": {
+        "from": 6,
+        "to": 8,
+        "type": "auto_welded_bridge"
+      }
+    },
+    {
+      "step": 14,
+      "timestamp": 1794927359655,
+      "action": "CONNECT_NODES",
+      "data": {
+        "from": 7,
+        "to": 8,
+        "type": "chain_seam"
+      }
+    },
+    {
+      "step": 15,
+      "timestamp": 1794927359659,
+      "action": "PASTE_CLIPBOARD",
+      "data": {
+        "newIds": [
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    }
+  ]
+}
